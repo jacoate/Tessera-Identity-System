@@ -1,39 +1,47 @@
 # Tessera Identity System
 
-## A Modular Identity Mapping Framework
+## Tabletop Personality Identity Mapping System
 
-Tessera is an interdisciplinary identity modeling project integrating personality psychology, self and identity research, socioecological development, moral psychology, neuroscience, and systems theory into a visual mapping framework.
+Tessera is a card-based personality identity mapping framework designed to help individuals visually construct, assess, and understand personality expression.
 
-## Core Objective
+The active scope of this repository is limited to the tabletop card architecture.
 
-Most personality systems answer: 'What traits do I have?'
+## Core Hierarchy
 
-Tessera attempts to answer: 'How is identity constructed, expressed, adapted, and maintained throughout development?'
+DOMAIN
+→ ASPECT
+→ FACET
+→ EXPRESSION
+→ RECONCILIATION
 
-## Personality Architecture
+## Assessment Architecture
 
-DOMAIN -> ASPECT -> FACET -> EXPRESSION -> RECONCILIATION
-
-### Domains
-- Extraversion
-- Agreeableness
-- Conscientiousness
-- Neuroticism
-- Openness / Intellect
-- Honesty-Humility
-
-### Principles
+- Domains are organizational summaries.
 - Domains are not directly tested.
 - Aspects are the primary testing units.
-- Facets are explanatory mechanisms.
-- Expressions are behavioral evidence.
+- Facets explain how aspects manifest.
+- Expressions provide behavioral evidence.
 - Reconciliation explains contradictions.
 - Three-pass assessment is required.
 
-## Identity Architecture
+## Current Repository Scope
 
-DISTAL INFLUENCES -> PROXIMAL INFLUENCES -> SELF -> SELF-CONCEPT -> IDENTITIES -> ACTIVE IDENTITY -> INTERPRETATION -> MOTIVATION -> BEHAVIOR -> FEEDBACK -> SELF-CONCEPT REVISION
+The card system is the authoritative development focus.
+
+Relevant content includes:
+
+- Domain Cards
+- Aspect Assessment Decks
+- Facet Cards
+- Expression Validation Cards
+- Reconciliation Cards
+- Identity Mapping Procedures
+- Assessment Methodology
+
+## Supporting Theory
+
+Broader identity theory, developmental theory, ecological models, neuroscience, and moral systems are considered supporting reference material and are not part of the active card architecture unless directly required by the card system.
 
 ## Project Status
 
-Foundational Architecture Phase.
+Card System Architecture Phase
