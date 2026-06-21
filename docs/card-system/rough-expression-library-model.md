@@ -1,357 +1,273 @@
 # Rough Expression Library Model
 
-Version: 0.1 Draft  
-Status: Staged for Review  
-Scope: Tessera Tabletop Card System
+Version: 0.2 Provisional
+Status: Active / Provisional
+Scope: Tessera Identity System expression drafting
 
 ---
 
-# Purpose
+## Overwrite Notice
 
-This document defines the rough working model for the Tessera expression library.
+This file replaces the prior draft expression model that used an active `Aspect: Honesty` example and described inverse expressions as subtracting from expression integrity while flagging Karma review.
 
-The expression library will translate facets into observer-readable behavioral evidence that can be used by:
+Reason for replacement:
 
-- An individual mapping themself
-- A therapist mapping a client
-- A third-party observer
-- A facilitator comparing self-report against observed behavior
-
-The goal is to preserve a consistent perspective format regardless of who is performing the evaluation.
+- Honesty / Honesty-Humility is no longer an active personality taxonomy branch;
+- Karma linkage should be contextual and review-oriented rather than automatic moral scoring;
+- expression records should be compatible with the current ten-aspect taxonomy and neutral symbol layer;
+- future digital schemas need clear separation between personality activation, expression evidence, symbol context, and Karma review.
 
 ---
 
-# Core Principle
+## Purpose
 
-Expressions are not traits.
+The expression library translates candidate facets into observer-readable behavioral evidence.
 
-Expressions are observable, repeatable behaviors that provide evidence for a facet.
+Expression records may support:
 
-An expression should answer:
+- self-mapping;
+- facilitator-guided interpretation;
+- observer comparison;
+- expression validation;
+- reconciliation review;
+- future digital schema development.
 
-```text
-What behavior shows this facet in action?
-```
+Expressions are not traits. They are observable, repeatable behaviors that provide possible evidence for a candidate facet.
 
 ---
 
-# Expression Wording Standard
+## Expression Wording Standard
 
-All expression items should use observer-readable phrasing.
+Expression items should use observer-readable phrasing when possible.
 
-## Avoid First-Person Integration Language
-
-Do not use:
+Avoid first-person-only wording:
 
 ```text
 I speak up when my position is challenged.
 ```
 
-Use:
+Prefer observer-readable wording:
 
 ```text
 Speaks up when their position is challenged.
 ```
 
-## Reason
-
-Observer-readable phrasing supports multiple use cases without rewriting the card content.
-
-The same card can be interpreted by:
-
-- The individual
-- A therapist
-- A researcher
-- A facilitator
-- A third-party observer
-
-This avoids locking the tool into self-report format.
+This allows the same expression card to be interpreted by the individual, a facilitator, a researcher, or a third-party observer without rewriting the card.
 
 ---
 
-# Expression Categories
+## Expression Categories
 
-The current expression library uses six constituent categories:
+The current rough expression library uses six drafting categories:
 
 | Category | Function |
 |---|---|
-| Behavioral | Observable action or conduct |
-| Communication | Spoken, written, or expressive behavior |
-| Decision-Making | Choice pattern or priority selection |
-| Relational | Interpersonal behavior or social positioning |
-| Problem-Solving | Response to obstacle, conflict, uncertainty, or complexity |
-| Self-Management | Internal regulation, recovery, inhibition, or sustained control |
+| Behavioral | Observable action or conduct. |
+| Communication | Spoken, written, or expressive behavior. |
+| Decision-Making | Choice pattern or priority selection. |
+| Relational | Interpersonal behavior or social positioning. |
+| Problem-Solving | Response to obstacle, conflict, uncertainty, or complexity. |
+| Self-Management | Regulation, recovery, inhibition, or sustained control. |
 
-All six categories should remain available for every facet during the rough drafting stage.
-
-Not every final card must use every category, but the full category set should be preserved so each facet can be examined across wider contexts.
+Not every final facet requires every category. The categories are drafting lenses, not required subscales.
 
 ---
 
-# Why All Categories Are Retained
+## Positive, Low, and Distorted Expression
 
-A single facet may express differently depending on context.
-
-For example, Reliability can appear as:
-
-| Category | Example Expression Direction |
-|---|---|
-| Behavioral | Completes agreed tasks |
-| Communication | Gives updates when delayed |
-| Decision-Making | Chooses follow-through over convenience |
-| Relational | Becomes dependable to others |
-| Problem-Solving | Creates systems to prevent dropped obligations |
-| Self-Management | Continues despite fluctuating motivation |
-
-This wider expression spread supports identity mapping across more than one life setting.
-
----
-
-# Positive and Inverse Expression Structure
-
-Expression scenarios should include both additive and subtractive options.
-
-The current rough model uses:
+Expression drafting should preserve three distinctions:
 
 ```text
-Scenario Card
-↓
-8 response options
-↓
-6 additive expression options
-2 subtractive inverse-pole options
-↓
-10 tokens allocated
-↓
-Maximum 5 tokens per option
+Positive / coherent expression
+Low or absent expression
+Distorted / aversive expression
 ```
 
-This is a provisional structure only.
-
-The final number of options, tokens, and polarity ratios must be determined in the Token Economy Model.
-
----
-
-# Additive Expression Options
-
-Additive options represent observer-readable behaviors that support the target facet.
+Low expression is not the same as negative expression.
 
 Example:
-
-```text
-Explains their position clearly when others disagree.
-```
-
-Potential scoring direction:
-
-```text
-Adds to the relevant expression category and parent facet.
-```
-
----
-
-# Subtractive Inverse-Pole Options
-
-Subtractive options represent distorted, aversive, coercive, avoidant, manipulative, or malformed expression patterns.
-
-They should not merely represent low expression.
-
-## Weak inverse item
 
 ```text
 Does not speak up.
 ```
 
-This may simply indicate low assertiveness, inhibition, uncertainty, fear, context restriction, or role suppression.
+This may suggest low assertiveness, social inhibition, uncertainty, role suppression, or context restriction. It should not automatically be interpreted as distorted expression.
 
-## Stronger inverse-pole item
-
-```text
-Overrides others rather than stating a position clearly.
-```
-
-or
+A distorted expression would involve an active counter-pattern:
 
 ```text
-Uses pressure to force agreement instead of communicating a position directly.
+Uses pressure to force agreement instead of communicating a position clearly.
 ```
 
-These show distorted expression rather than mere absence.
+Distorted expression may route to reconciliation or Karma review, but should not be treated as proof of intent or moral character.
 
 ---
 
-# Key Distinction
+## Relationship to Symbols
 
-Low expression is not the same as negative expression.
+Expression records may include neutral context symbols.
 
-```text
-Low expression
-≠
-Aversive expression
-```
+Symbols do not score the expression. They indicate themes that may become relevant during reconciliation or Karma scenario review.
 
-A participant can show little evidence of a facet without showing harmful or distorted expression.
+Example symbols:
 
-Subtractive options should therefore represent active counter-patterns, not simple absence.
+- Agency
+- Status
+- Cost
+- Care
+- Disclosure
+- Equity
+- Resource
+- Accountability
 
----
-
-# Karma Shadow Linkage
-
-The Karma model should inform the flavor of inverse-pole options.
-
-Karma does not replace personality scoring.
-
-Instead, it helps identify when a personality expression is being used in an aversive or ethically distorted direction.
-
-Example:
-
-## Facet
-
-```text
-Influence
-```
-
-## Category
-
-```text
-Communication
-```
-
-## Additive expression
-
-```text
-Explains an idea in a way that helps others understand the choice.
-```
-
-## Inverse-pole expression
-
-```text
-Frames information selectively to steer others without giving them the full picture.
-```
-
-## Possible Karma shadow
-
-```text
-Strategic Deception
-Exploitative Orientation
-```
+Repeated symbols may identify a recurring context theme, but they should not accumulate into hidden trait scores.
 
 ---
 
-# Provisional Expression Item Schema
+## Relationship to Karma
 
-Each draft expression item should eventually be stored with the following fields:
+Karma can inform the design of distorted or ethically loaded expression options, but Karma does not replace personality scoring and does not automatically convert expression choices into moral conclusions.
+
+Use language such as:
+
+```text
+Possible Karma review context
+```
+
+Avoid language such as:
+
+```text
+Confirmed Karma shadow
+Definitive moral flag
+Proof of deception
+```
+
+Karma review becomes relevant when an expression intersects with tradeoff, cost, power, concealment, harm, accountability, exploitation, or consequence.
+
+---
+
+## Provisional Expression Item Schema
+
+Each draft expression item should eventually be stored with fields such as:
 
 | Field | Purpose |
 |---|---|
-| Aspect | Parent aspect |
-| Facet | Parent facet |
-| Expression Category | Behavioral, Communication, Decision-Making, Relational, Problem-Solving, or Self-Management |
-| Positive Expression | Observer-readable additive behavior |
-| Inverse Expression A | Observer-readable subtractive behavior |
-| Inverse Expression B | Second subtractive behavior, preferably using a different distortion pattern |
-| Likely Karma Shadow | Possible Karma dimension or negative-pole linkage |
-| Scenario Use | Contexts where the expression may appear |
-| Scoring Notes | How the expression should be treated during token allocation |
+| Expression ID | Stable identifier for future card or database use. |
+| Domain Family | Organizational anchor, if needed. |
+| Aspect | Parent aspect from the current ten-aspect model. |
+| Candidate Facet | Parent candidate facet. |
+| Expression Category | Behavioral, Communication, Decision-Making, Relational, Problem-Solving, or Self-Management. |
+| Positive Expression | Observer-readable coherent expression. |
+| Low / Inhibited Expression | Possible low-expression or suppressed-expression wording. |
+| Distorted Expression A | Active counter-pattern or aversive implementation. |
+| Distorted Expression B | Optional second distorted pattern. |
+| Symbol Tags | Neutral context markers. |
+| Possible Karma Review Context | Karma dimensions that may become relevant if scenario context supports review. |
+| Reconciliation Cues | Possible routes such as role suppression, social inhibition, cost sensitivity, or self-concept mismatch. |
+| Scoring Notes | Draft notes for analog or digital scoring, marked provisional. |
+| Empirical / Speculative Status | Whether the item is sourced from empirical construct logic, Tessera design extrapolation, or entertainment-only mechanics. |
 
 ---
 
-# Example Draft Expression Record
+## Example Draft Expression Record
 
 ```text
-Aspect: Honesty
-Facet: Transparency
+Expression ID: ASSERT-INFL-COMM-001
+Domain Family: Extraversion
+Aspect: Assertiveness
+Candidate Facet: Influence
 Expression Category: Communication
 
 Positive Expression:
-States relevant motives, limits, or uncertainty before others make a decision.
+Explains an idea in a way that helps others understand the choice.
 
-Inverse Expression A:
-Withholds relevant information so others form a more favorable impression.
+Low / Inhibited Expression:
+Avoids explaining their position when others may disagree.
 
-Inverse Expression B:
-Reveals only the facts that protect their own position.
+Distorted Expression A:
+Frames information selectively so others move toward the preferred choice without seeing relevant tradeoffs.
 
-Likely Karma Shadow:
-Strategic Deception / Exploitative Orientation
+Distorted Expression B:
+Uses confidence or urgency to push agreement before others can evaluate alternatives.
 
-Scenario Use:
-Negotiation, teamwork, apology, leadership, conflict, disclosure, shared decision-making.
+Symbol Tags:
+Agency / Disclosure / Status / Cost
+
+Possible Karma Review Context:
+Authentic Presentation, Relational Equity, Moral Sensitivity, Accountability Orientation.
+
+Reconciliation Cues:
+Influence may be present, but expression integrity should be reviewed if persuasion relies on omission, pressure, or reduced autonomy.
 
 Scoring Notes:
-Positive expression adds to Transparency. Inverse expressions may subtract from expression integrity and flag Karma review.
+Positive expression may support Influence. Low expression may indicate inhibition or context restriction. Distorted expression may trigger review but should not automatically produce a moral conclusion without scenario context.
+
+Empirical / Speculative Status:
+Facet/expression logic is provisional Tessera modeling informed by personality-expression concepts. It is not validated as a scale item until tested.
 ```
 
 ---
 
-# Token Economy Dependency
+## Token Economy Dependency
 
 The expression library cannot be finalized until the token economy model is defined.
 
-The token economy model must determine:
+The token economy model should determine:
 
-- Total tokens per scenario
-- Maximum tokens per option
-- Whether all tokens must be allocated
-- Whether unused tokens have meaning
-- Number of response options per card
-- Ratio of additive to subtractive options
-- Whether inverse options subtract from facet score, expression integrity, or both
-- Whether inverse options trigger Karma flags
-- Whether inverse options use linear subtraction or weighted subtraction
-- Whether categories are scored separately or collapsed into facet totals
-- Whether high allocation to inverse options overrides positive evidence
+- total tokens per scenario;
+- maximum tokens per option;
+- whether all tokens must be allocated;
+- whether unused tokens have meaning;
+- number of response options per card;
+- whether distorted options affect expression integrity, trigger review, or both;
+- whether categories are scored separately or collapsed into facet estimates;
+- how review flags are described without implying certainty.
 
 ---
 
-# Current Rough Scoring Assumption
+## Current Rough Scoring Assumption
 
 Current provisional assumption:
 
 ```text
 Positive expression options
-→ Add to personality facet/category
+-> may support candidate facet evidence
 
-Inverse expression options
-→ Subtract from expression integrity
-→ Flag possible Karma shadow dimension
+Low / inhibited expression options
+-> may support contextuality or reconciliation review
+
+Distorted expression options
+-> may reduce expression integrity or route to Karma review when scenario context supports it
 ```
 
-This allows the model to preserve the distinction between:
+This preserves the distinction between:
 
 ```text
-Personality tendency
-```
-
-and
-
-```text
-Ethical or relational direction of expression
+personality tendency
+observable expression
+contextual inhibition
+ethical implementation
 ```
 
 ---
 
-# Implementation Notes
+## Digital Schema Warning
 
-The expression library should be drafted before full card text is finalized.
+Future databases should not treat `Possible Karma Review Context` as a confirmed Karma outcome. It is a routing hint for interpretation, scenario comparison, or later validation.
 
-The rough expression library should identify possible behaviors across all aspects, facets, and expression categories.
+Recommended separation:
 
-The token economy model should then define how those behaviors become testable card options.
-
-After the token economy model is established, final expression cards can be written with consistent scoring rules.
+```text
+trait_activation_evidence
+expression_integrity_review
+context_symbol_tags
+possible_karma_review_context
+final_interpretation_note
+validation_status
+```
 
 ---
 
-# Next Step
+## Next Step
 
-Create the Token Economy Model.
-
-Recommended file:
-
-```text
-docs/card-system/token-economy-model.md
-```
-
-That file should define the scoring mechanics, polarity handling, token allocation rules, and how personality expression scores interact with Karma flags.
+Create or revise the Token Economy Model only after the current taxonomy, symbol, Karma-boundary, and reconciliation rules have been reviewed together.
