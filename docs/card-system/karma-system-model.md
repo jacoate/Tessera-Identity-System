@@ -1,40 +1,70 @@
 # Karma System Model
 
-Version: 0.1 Draft  
-Status: Provisional  
-Scope: Tessera tabletop card-based personality identity mapping system  
+Version: 0.2 Provisional
+Status: Active / Provisional
+Scope: Tessera Identity System moral-context and ethical-conflict model
+
+---
+
+## Overwrite Notice
+
+This file replaces the prior Karma draft language that described Karma as a bridge between personality expression and ethical consequence and included unresolved visible/hidden scoring questions.
+
+Reason for replacement:
+
+- the current architecture separates personality taxonomy from Karma interpretation;
+- symbols may provide non-scoring cross-reference, but personality scores should not convert automatically into Karma outcomes;
+- future digital implementations require explicit separation between scenario metadata, review flags, interpretive hypotheses, and validated results;
+- empirically backed moral/personality information should be preserved, while Tessera-specific Karma mechanics remain provisional.
+
+---
+
+## Scientific and Speculative Status
+
+The Karma model is a Tessera-specific framework built from personality, moral psychology, ethical integrity, and scenario-design concepts.
+
+It should be treated as:
+
+- **source-informed** where it draws from established constructs;
+- **speculative** where it proposes Tessera-specific dimensions, scenario mechanics, or reconciliation routes;
+- **unvalidated** as an official assessment tool until empirical testing supports reliability, validity, and interpretation procedures.
+
+The model may be used for entertainment, reflection, education, and prototype testing. It should not claim psychometric validity, diagnostic power, or moral certainty without appropriate validation.
 
 ---
 
 ## 1. Purpose
 
-The Karma System is Tessera's ethical-direction overlay for personality expression.
+The Karma System examines the ethical context of behavior, especially when personality expression intersects with cost, tradeoff, power, concealment, harm, accountability, autonomy, or consequence.
 
-It does not replace the personality taxonomy. It evaluates how personality tendencies are implemented through behavior, intention, constraint, accountability, and relational consequence.
-
-The core question is:
+Core question:
 
 ```text
-How is this tendency being used?
+What ethical pattern may be present in this response or scenario choice?
 ```
 
-Personality identifies the tendency being expressed. Karma identifies the ethical direction, distortion, or integrity of that expression.
+Personality taxonomy describes tendencies and expression patterns. Karma reviews ethical direction, distortion, integrity, and moral-context implications.
 
 ---
 
-## 2. Position in the Card-Based Model
-
-The current tabletop system separates personality structure from ethical implementation.
+## 2. Position in the Model
 
 ```text
 Personality Taxonomy
-Domain -> Aspect -> Facet -> Expression -> Reconciliation
+Domain Family -> Aspect -> Candidate Facet -> Expression -> Reconciliation
 
 Karma System
-Ethical Dimension -> Benevolent / Aversive Component -> Expression Shadow -> Reconciliation Flag
+Scenario Context -> Ethical Dimension -> Benevolent / Aversive Pole -> Review Flag -> Reconciliation Context
+
+Symbol Layer
+Neutral Context Marker -> Cross-reference for reconciliation or Karma review
 ```
 
-The Karma System is not a second personality taxonomy. It is an interpretive and evaluative layer applied to scenario options, expression cards, inverse-pole responses, and reconciliation triggers.
+Karma is not a second personality taxonomy.
+
+Karma is not an automatic converter from personality response to moral judgment.
+
+Karma may receive contextual information from symbols, expression integrity review, and scenario choices, but interpretation should remain provisional unless supported by stronger evidence.
 
 ---
 
@@ -42,256 +72,60 @@ The Karma System is not a second personality taxonomy. It is an interpretive and
 
 Karma should not be treated as:
 
-- a single good/evil meter
-- a metaphysical reward or punishment system
-- a replacement for Communion, Honesty, or any personality aspect
-- a clinical diagnosis
-- a simple moral score
-- a punishment for choosing too many favorable-looking options
+- a single good/evil meter;
+- a metaphysical reward or punishment system;
+- a replacement for personality aspects;
+- a diagnosis;
+- a simple moral score;
+- proof of intent;
+- a hidden scoring bridge from taxonomy to morality.
 
-Karma should be treated as:
+Karma may be treated as:
 
-- an ethical-direction overlay
-- a way to detect distorted implementation of otherwise valid traits
-- a source of inverse-pole option design
-- a flagging system for reconciliation
-- a multidimensional moral-function profile
-- a bridge between personality expression and ethical consequence
-
----
-
-## 4. Foundational Logic
-
-The Karma System is based on the premise that ethical integrity is multidimensional.
-
-A single moral score cannot adequately explain cases such as:
-
-- the honest but cruel person
-- the caring but controlling person
-- the fair but cowardly person
-- the rule-following but externally regulated person
-- the compassionate but morally blind helper
-- the high-agency leader whose implementation is coercive
-
-Therefore, Karma must preserve distinct ethical dimensions rather than compressing them into one global value.
+- a moral-context review system;
+- a scenario-design framework;
+- a way to identify possible distorted implementation of otherwise valid traits;
+- a source of ethically relevant inverse or tension-bearing scenario options;
+- a reconciliation support layer;
+- a multidimensional ethical-pattern profile when validated enough to justify that use.
 
 ---
 
-## 5. Current 12 Karma Dimensions
+## 4. Current 12 Karma Dimensions
 
-### 1. Authentic Presentation
+The current dimension set is provisional. It preserves the working moral-integrity structure used by the project, but each dimension should remain open to review, renaming, consolidation, expansion, or empirical testing.
 
-**Benevolent pole:** Sincerity  
-**Aversive pole:** Strategic Deception  
-
-Evaluates whether a person represents motives, facts, and self-presentation honestly or strategically distorts them for advantage.
-
-Common shadow expressions:
-
-- selective truth
-- image management
-- strategic omission
-- persona shifting
-- charm as a tool
-- calculated false presentation
-
----
-
-### 2. Relational Equity
-
-**Benevolent pole:** Fairness and Exploitation Aversion  
-**Aversive pole:** Exploitative Orientation  
-
-Evaluates whether others are treated as autonomous participants or as instruments for use.
-
-Common shadow expressions:
-
-- taking unfair advantage
-- one-sided exchange
-- boundary violation
-- favoritism
-- dominance disguised as order
-- extraction from relationships
+| # | Dimension | Benevolent Pole | Aversive Pole | Core Review Question |
+|---:|---|---|---|---|
+| 1 | Authentic Presentation | Sincerity | Strategic Deception | Is self-presentation accurate or strategically distorted? |
+| 2 | Relational Equity | Fairness / Exploitation Aversion | Exploitative Orientation | Are others treated as autonomous participants or as instruments? |
+| 3 | Self-Regard Calibration | Modest / accurate self-regard | Grandiosity / Entitlement | Is self-importance proportionate or inflated? |
+| 4 | Material Orientation | Greed Avoidance | Status-Striving / Materialism | Are resources tools, necessities, identity anchors, or leverage? |
+| 5 | Affective Empathy | Compassion / Responsiveness | Callousness / Indifference | Is vulnerability or distress affectively registered and responded to? |
+| 6 | Accountability Orientation | Responsibility Acceptance | Blame Deflection | Are consequences owned, repaired, or avoided? |
+| 7 | Intentional Orientation | Benevolent Intent | Malevolent / Indifferent Intent | Is welfare considered, disregarded, or harmed? |
+| 8 | Moral Reasoning | Sophisticated / Universal Principles | Concrete / Egocentric Reasoning | How complex, fair, and generalizable is the moral reasoning? |
+| 9 | Constraint Internalization | Autonomous Ethics | Heteronomous / External Regulation | Is conduct internally owned or dependent on observation/enforcement? |
+| 10 | Moral Sensitivity | Harm Awareness | Moral Blindness | Are ethical stakes, power, autonomy, and harm detected? |
+| 11 | Moral Courage | Cost-Bearing Willingness | Cost-Avoidance / Compliance | Does ethical action persist under pressure or risk? |
+| 12 | Development Orientation | Growth-Open / Reflective | Fixed / Defensive | Can the person learn, revise, repair, and update self-understanding? |
 
 ---
 
-### 3. Self-Regard Calibration
+## 5. Honesty-Humility Decomposition
 
-**Benevolent pole:** Modest / accurate self-regard  
-**Aversive pole:** Grandiosity / Entitlement  
+Honesty-Humility is not currently retained as an active personality taxonomy branch or scored bridge.
 
-Evaluates whether self-importance is proportionate or inflated.
+Its core moral material is represented in Karma as follows:
 
-Common shadow expressions:
+| Honesty-Humility Material | Karma Representation |
+|---|---|
+| Sincerity | Authentic Presentation |
+| Fairness / exploitation aversion | Relational Equity |
+| Modesty / entitlement restraint | Self-Regard Calibration |
+| Greed-avoidance / material detachment | Material Orientation |
 
-- special pleading
-- entitlement
-- status inflation
-- admiration seeking
-- devaluing others
-- superiority framing
-
----
-
-### 4. Material Orientation
-
-**Benevolent pole:** Greed Avoidance  
-**Aversive pole:** Status-Striving / Materialism  
-
-Evaluates whether material resources are treated as tools or as identity/status anchors.
-
-Common shadow expressions:
-
-- status display
-- resource hoarding
-- comparison-driven acquisition
-- material leverage
-- luxury identity
-- wealth as self-worth
-
----
-
-### 5. Affective Empathy
-
-**Benevolent pole:** Compassion / Responsiveness  
-**Aversive pole:** Callousness / Indifference  
-
-Evaluates affective responsiveness to vulnerability, pain, need, or distress.
-
-Common shadow expressions:
-
-- indifference to harm
-- failure to notice distress
-- using vulnerability
-- performative concern
-- objectification
-- cruel detachment
-
----
-
-### 6. Accountability Orientation
-
-**Benevolent pole:** Responsibility Acceptance  
-**Aversive pole:** Blame Deflection  
-
-Evaluates whether a person owns consequences, repairs harm, and accepts responsibility.
-
-Common shadow expressions:
-
-- excuse building
-- blame shifting
-- context dumping before ownership
-- avoiding repair
-- conditional apology
-- consequence evasion
-
----
-
-### 7. Intentional Orientation
-
-**Benevolent pole:** Benevolent Intent  
-**Aversive pole:** Malevolent / Indifferent Intent  
-
-Evaluates whether the person wishes others well, disregards welfare, or gains satisfaction from harm.
-
-Common shadow expressions:
-
-- hostility
-- sabotage
-- instrumental care
-- indifference to damage
-- punitive enjoyment
-- self-gain regardless of cost
-
----
-
-### 8. Moral Reasoning
-
-**Benevolent pole:** Sophisticated / Universal Principles  
-**Aversive pole:** Concrete / Egocentric Reasoning  
-
-Evaluates the complexity, scope, and universality of moral reasoning.
-
-Common shadow expressions:
-
-- rule literalism
-- self-serving shortcuts
-- in-group exception making
-- outcome-only reasoning
-- egocentric justification
-- inability to integrate competing values
-
----
-
-### 9. Constraint Internalization
-
-**Benevolent pole:** Autonomous Ethics  
-**Aversive pole:** Heteronomous / External Regulation  
-
-Evaluates whether ethical behavior is internally owned or dependent on observation, approval, enforcement, or punishment.
-
-Common shadow expressions:
-
-- behaves ethically only when watched
-- rule compliance without value integration
-- avoids consequences rather than wrongdoing
-- externalized morality
-- observation-dependent conduct
-- ethics as performance
-
----
-
-### 10. Moral Sensitivity
-
-**Benevolent pole:** High Harm Awareness  
-**Aversive pole:** Moral Blindness  
-
-Evaluates whether a person detects ethical stakes, vulnerability, autonomy violations, and possible harm.
-
-Common shadow expressions:
-
-- fails to notice harm
-- misreads vulnerability
-- ignores second-order consequences
-- treats autonomy violations as harmless
-- overlooks power imbalance
-- mistakes intention for impact
-
----
-
-### 11. Moral Courage
-
-**Benevolent pole:** Cost-Bearing Willingness  
-**Aversive pole:** Cost-Avoidance / Compliance  
-
-Evaluates whether ethical action persists under pressure, cost, or risk.
-
-Common shadow expressions:
-
-- silence under pressure
-- compliance with harmful authority
-- conflict avoidance
-- principle abandonment
-- cost-sensitive morality
-- bystander passivity
-
----
-
-### 12. Development Orientation
-
-**Benevolent pole:** Growth-Open / Reflective  
-**Aversive pole:** Fixed / Defensive  
-
-Evaluates whether the person can revise moral understanding, learn from harm, receive feedback, and update self-concept.
-
-Common shadow expressions:
-
-- defensiveness
-- moral rigidity
-- refusal of feedback
-- identity-protective denial
-- repeating ethical mistakes without learning
-- attacking correction
+Any neutral behavioral residues may appear as card wording, neutral symbols, or reconciliation context when useful, but should not recreate Honesty-Humility as a hidden score.
 
 ---
 
@@ -299,258 +133,131 @@ Common shadow expressions:
 
 Karma does not duplicate personality aspects.
 
-For example, Communion measures relational orientation, warmth, compassion, trust, cooperation, and protectiveness as personality tendencies.
-
-Karma evaluates whether relational behavior is implemented ethically.
-
 Examples:
 
-```text
-High Communion + constructive Karma:
-Warm, responsive, protective, and respectful of autonomy.
+| Personality Result | Karma Review Boundary |
+|---|---|
+| High Compassion | Does not prove ethical care under cost or consequence. |
+| Low Compassion | Does not prove cruelty or moral failure. |
+| High Assertiveness | Does not prove dominance, entitlement, or courage. |
+| Low Assertiveness | Does not prove cowardice or low agency in all contexts. |
+| High Orderliness | Does not prove responsibility or moral reliability. |
+| High Volatility | Does not prove harmful intent. |
 
-High Communion + distorted Karma:
-Warm or caring presentation used to control, manipulate, rescue, or bind others.
-
-Low Communion + constructive Karma:
-Reserved or low-affiliation, but fair, accountable, non-exploitative, and respectful.
-```
-
-This prevents the system from mistaking friendliness for ethical integrity.
+Karma becomes relevant when the scenario or expression context includes ethical stakes.
 
 ---
 
 ## 7. Relationship to Expression Cards
 
-Karma should shape inverse-pole expression options.
+Karma may inform distorted expression options, but distorted options should remain plausible and self-justifiable rather than cartoonishly bad.
 
-Aversive options should not be cartoonishly bad. They should be plausible, self-justifiable, and attractive to a desired identity while still encoding a distorted mechanism.
-
-A poor inverse option:
-
-```text
-Bullies everyone into doing what they want.
-```
-
-A stronger inverse option:
+Example surface frame:
 
 ```text
 Takes control of the plan quickly so the group stops wasting time debating.
 ```
 
-The second option has a favorable surface frame but may carry a latent mechanism of dominance, low cooperation, moral sensitivity failure, or relational inequity depending on the scenario.
+Possible review contexts:
+
+- Assertiveness / Leadership activation;
+- Relational Equity review;
+- Moral Sensitivity review;
+- Accountability review;
+- Reconciliation route: efficiency used to justify reduced autonomy.
+
+This should not automatically produce a moral conclusion. It should route interpretation to the relevant review questions.
 
 ---
 
-## 8. Surface Frame and Latent Mechanism
+## 8. Scenario Option Metadata
 
-Every Karma-relevant scenario option should eventually contain two interpretive layers.
-
-### Surface Frame
-
-The apparent value or identity appeal of the option.
-
-Examples:
-
-- leadership
-- honesty
-- care
-- efficiency
-- confidence
-- protection
-- independence
-- responsibility
-
-### Latent Mechanism
-
-The actual behavioral or ethical mechanism encoded by the option.
-
-Examples:
-
-- domination
-- strategic deception
-- autonomy violation
-- blame deflection
-- moral blindness
-- status protection
-- callousness
-- externally regulated compliance
-
-The purpose is not to trick the participant. The purpose is to make distorted expression recognizable in the way it often appears in real life: wearing the costume of a desirable self-concept.
-
----
-
-## 9. Scoring Direction
-
-Karma should not simply subtract from personality score.
-
-An aversive leadership expression may still indicate high Agency or high Leadership activation. The issue is not that the trait is absent. The issue is that implementation is distorted.
-
-Therefore, scenario options should eventually support at least three outputs.
-
-### 1. Trait Activation
-
-Does the response show the personality tendency is active?
-
-### 2. Expression Integrity
-
-Is the tendency expressed coherently, constructively, and with contextual awareness?
-
-### 3. Karma Shadow Flag
-
-Which ethical dimensions are implicated by the expression pattern?
-
-Example:
+Future analog or digital scenario options may eventually store metadata such as:
 
 ```text
-Dominates the group to force action.
+scenario_id
+option_id
+observer_readable_option_text
+surface_frame
+latent_mechanism_hypothesis
+personality_aspect_context
+candidate_facet_context
+expression_category
+trait_activation_evidence
+expression_integrity_review
+symbol_tags
+possible_karma_review_context
+reconciliation_route
+scoring_effect_provisional
+validation_status
 ```
 
-Possible interpretation:
-
-- Trait Activation: Agency / Leadership active
-- Expression Integrity: compromised
-- Karma Shadows: Relational Equity, Moral Sensitivity, Accountability
+The field `possible_karma_review_context` should not be treated as a confirmed moral outcome.
 
 ---
 
-## 10. Scenario Option Metadata
-
-Future scenario cards should eventually use hidden metadata similar to the following:
-
-```text
-Option ID:
-Scenario ID:
-Observer-readable option text:
-Surface frame:
-Latent mechanism:
-Aspect:
-Facet:
-Expression category:
-Trait activation:
-Expression integrity:
-Karma dimension flag:
-Constraint tag:
-Contradiction pair:
-Scoring effect:
-Reconciliation route:
-```
-
-This metadata allows personality, expression integrity, and Karma flags to interact without collapsing into a single moral score.
-
----
-
-## 11. Reconciliation Routes
+## 9. Reconciliation Routes
 
 Karma should feed reconciliation rather than replace it.
 
 Possible reconciliation routes include:
 
-- Desired-Self Projection
-- Role Misinterpretation
-- Ethical Blind Spot
-- Benevolent-Intent / Harm-Mismatch
-- High Trait / Low Integrity Expression
-- Observed vs. Unobserved Split
-- Control Disguised as Care
-- Efficiency Disguised as Leadership
-- Honesty Disguised as Aggression
-- Care Disguised as Autonomy Violation
-- Accountability Avoidance
-- Externalized Morality
-- Cost-Avoidant Ethics
-- Developmental Defensiveness
+- Desired-Self Projection;
+- Role Misinterpretation;
+- Ethical Blind Spot;
+- Benevolent-Intent / Harm-Mismatch;
+- High Trait / Low Integrity Expression;
+- Observed vs. Unobserved Split;
+- Control Disguised as Care;
+- Efficiency Disguised as Leadership;
+- Directness Disguised as Honesty;
+- Care Disguised as Autonomy Violation;
+- Accountability Avoidance;
+- Externalized Morality;
+- Cost-Avoidant Ethics;
+- Developmental Defensiveness.
 
-These reconciliation routes explain why a personality tendency may be present while its implementation generates ethical or relational distortion.
-
----
-
-## 12. Card Functions
-
-The Karma System may eventually require three card types.
-
-### Karma Dimension Cards
-
-Purpose:
-
-- define each ethical dimension
-- identify benevolent and aversive poles
-- provide example surface frames and shadow mechanisms
-- assist interpretation during scenario review
-
-Recommended count:
-
-```text
-12 cards
-```
-
-### Karma Shadow Tags
-
-Purpose:
-
-- attach ethical flags to scenario options
-- support hidden scoring metadata
-- route results toward reconciliation
-
-These may not need physical cards in the first prototype. They may function as design tags.
-
-### Karma Reconciliation Cards
-
-Purpose:
-
-- explain distorted implementation
-- clarify mismatches between personality activation and ethical expression
-- help facilitator/player interpret contradictions
-
-These may become physical cards later if reconciliation becomes a major gameplay phase.
+These routes are interpretive hypotheses. They should be reviewed against scenario evidence, response patterns, and player reflection.
 
 ---
 
-## 13. Current Open Decisions
+## 10. Current Open Decisions
 
-The following questions remain unresolved:
+The following remain unresolved:
 
-1. Should Karma produce visible scores, hidden flags, or both?
+1. Should Karma results be visible, facilitator-facing, or both?
 2. Should Karma dimensions have physical cards in the first prototype?
-3. Should Karma shadow tags remain internal metadata?
-4. How should Karma flags interact with token allocation?
-5. Should aversive options reduce expression integrity but still add to trait activation?
-6. Should repeated Karma flags create profile-level patterns?
-7. Should Karma be tested independently or only through scenario options?
-8. Should each Karma dimension have component inventories before scenario writing begins?
+3. Should Karma review contexts remain internal metadata, printed symbols, or manual reference tables?
+4. How should token allocation interact with expression integrity and Karma review?
+5. Should repeated Karma review contexts create profile-level patterns, and under what validation standard?
+6. Should Karma be tested independently, through scenarios, or through both?
+7. Should each Karma dimension receive component inventories before scenario writing begins?
+8. How should entertainment-focused scenario design be separated from official testing claims?
 
 ---
 
-## 14. Current Working Definition
+## 11. Digital Expansion Note
 
-Karma is Tessera's ethical-direction overlay that evaluates whether a personality expression is implemented through constructive, reciprocal, accountable, empathic, and developmentally open mechanisms, or through distorted, exploitative, deceptive, callous, defensive, externally regulated, or harm-blind mechanisms.
+A future digital implementation may benefit from database storage, automated pattern review, longitudinal comparison, and assisted interpretation.
 
-In short:
+Digital expansion should preserve these distinctions:
 
 ```text
-Personality tells what move is being made.
-Karma tells what moral physics the move carries.
+raw response
+item metadata
+symbol tag
+expression evidence
+possible Karma review context
+reconciliation hypothesis
+validated outcome
 ```
+
+Machine-readable does not mean validated.
 
 ---
 
-## 15. Next Development Step
+## 12. Current Working Definition
 
-All card inventories and card functions should be established before refining the precise interaction rules.
+Karma is Tessera's provisional moral-context review system for examining whether behavior appears to involve constructive, reciprocal, accountable, empathic, autonomy-respecting, and developmentally open mechanisms, or whether it may involve distorted, exploitative, deceptive, callous, defensive, externally regulated, or harm-blind mechanisms.
 
-The next recommended artifact is:
-
-```text
-docs/card-system/token-economy-model.md
-```
-
-That model should define how tokens interact with:
-
-- scenario options
-- positive expression choices
-- identity-attractive aversive choices
-- trait activation
-- expression integrity
-- Karma shadow flags
-- contradiction detection
-- reconciliation routing
+This definition is provisional and should be refined through literature review, card testing, expert review, and empirical validation.
