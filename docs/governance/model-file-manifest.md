@@ -13,12 +13,14 @@ The manifest is a working index, not a claim that no other model-relevant files 
 - **Provisional**: active but open to review and amendment.
 - **Superseded**: retained as historical reference but no longer governing.
 - **Archival**: source/reference material not currently governing the active model.
+- **Automation**: workflow or procedural file that supports repository governance.
 
 ## Known Active / Governance Files
 
 | Path | Status | Function |
 |---|---|---|
 | `README.md` | Active / Provisional | Project overview and current working architecture summary |
+| `.github/workflows/update-repo-tree.yml` | Automation / Governance | Regenerates `docs/governance/repo-tree.md` from the Git repository tree |
 | `docs/governance/revision-and-overwrite-policy.md` | Governance | Revision policy and overwrite confirmation rules |
 | `docs/governance/repo-access-and-editing-protocol.md` | Governance | Connector access boundary and edit procedure |
 | `docs/governance/repo-tree.md` | Governance | Repository tree index and enumeration boundary record |
