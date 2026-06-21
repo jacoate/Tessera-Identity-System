@@ -1,10 +1,12 @@
 # Tessera Identity System
 
-## Analog Personality Identity Mapping System
+## Provisional Personality, Morality, and Identity Mapping System
 
-Tessera is a card-based personality identity mapping framework designed to help individuals visually construct, assess, and interpret personality expression.
+Tessera is a developing identity-mapping framework focused first on analog card-based modeling of personality expression, morality, reconciliation, and self-interpretation.
 
-The active scope of this repository is limited to the physical tabletop/card architecture. The system does not currently rely on a digital database, automated utility function, or software-driven scoring engine.
+The current implementation focus is physical tabletop/card architecture. The system does not currently rely on a digital database, automated utility function, or software-driven scoring engine.
+
+The broader project direction may later expand into more detailed theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. Those future expansions should preserve the distinction between empirical source material, Tessera-specific speculative modeling, entertainment mechanics, and validated assessment claims.
 
 ## Current Working Hierarchy
 
@@ -12,26 +14,34 @@ The current working structure is provisional:
 
 ```text
 DOMAIN FAMILY
-→ ASPECT
-→ FACET
-→ EXPRESSION
-→ RECONCILIATION
+-> ASPECT
+-> CANDIDATE FACET
+-> EXPRESSION
+-> RECONCILIATION
 ```
 
-This hierarchy is used as a design scaffold rather than a permanently fixed structure. No domain, aspect, facet, expression, reconciliation type, symbol, or Karma dimension should be treated as locked against future review.
+This hierarchy is used as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future database field should be treated as locked against review.
 
 ## Revision Governance
 
-All model sections are provisional and subject to revision when changes improve construct clarity, reduce redundancy, preserve empirically meaningful information, or improve analog usability.
+All model sections are provisional and subject to revision when changes improve construct clarity, reduce redundancy, preserve empirically meaningful information, prepare future infrastructure, or improve analog usability.
 
 Any modification that may overwrite, replace, or materially reinterpret an existing system format must explicitly identify the potential overwrite before the change is accepted. The overwrite notice should state:
 
 1. what prior structure or assumption may be replaced;
 2. why the replacement is being proposed;
-3. which affected files, decks, cards, symbols, or procedures may need review;
-4. whether the change affects scoring, interpretation, routing, reconciliation, or manual language.
+3. which affected files, decks, cards, symbols, procedures, or future data structures may need review;
+4. whether the change affects scoring, interpretation, routing, reconciliation, manual language, or future schema design.
 
 No update should imply absolute finality. Manual language should use non-absolute phrasing such as “suggests,” “is consistent with,” “may indicate,” or “appears to reflect,” especially where empirical validation has not yet been completed.
+
+## Empirical Preservation Rule
+
+Empirically backed information should never be overwritten, deleted, or contradicted merely to simplify the Tessera model.
+
+Speculative Tessera structures are allowed and are central to the project, but they must be labeled as provisional, candidate, hypothesis, design extrapolation, entertainment-only, or requiring validation when appropriate.
+
+If a construct from an established theory is removed from active architecture, the repository should explain whether the construct is represented elsewhere, preserved as source lineage, outside the current scope, or awaiting further review.
 
 ## Provisional Primary Aspect Set
 
@@ -95,17 +105,19 @@ Where constructs overlap, the systems should remain functionally distinct:
 
 Relevant content includes:
 
-- Domain-family reference cards
-- Aspect assessment decks
-- Facet cards
-- Expression validation cards
-- Reconciliation cards
-- Neutral symbol reference materials
-- Karma scenario and interpretation materials
-- Identity mapping procedures
-- Assessment methodology
-- Instruction manual language
+- domain-family reference cards;
+- aspect assessment decks;
+- candidate facet cards;
+- expression validation cards;
+- reconciliation cards;
+- neutral symbol reference materials;
+- Karma scenario and interpretation materials;
+- identity mapping procedures;
+- assessment methodology;
+- instruction manual language;
+- governance and source-lineage files;
+- future schema planning notes.
 
 ## Project Status
 
-Active analog card-system architecture phase. All structures are reviewable and amendable.
+Active analog card-system architecture phase within a broader holistic identity-modeling project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative Tessera structures should remain explicitly labeled until validated.
