@@ -1,14 +1,14 @@
 # Model File Manifest
 
-Version: 0.2 Provisional
+Version: 0.3 Provisional
 Status: Governance
-Scope: active, governance-relevant, and review-pending Tessera model files
+Scope: active, governance-relevant, and expansion-scaffold Tessera model files
 
 ---
 
 ## Purpose
 
-This manifest identifies files currently known to contain active, governance-relevant, superseded, or review-pending Tessera Identity System model content.
+This manifest identifies files currently known to contain active, governance-relevant, expansion-scaffold, or review-relevant Tessera Identity System model content.
 
 The manifest is a working index. It should be updated whenever a model-relevant file is created, retired, superseded, renamed, discovered, or structurally overwritten.
 
@@ -17,16 +17,17 @@ The manifest is a working index. It should be updated whenever a model-relevant 
 ## Status Labels
 
 - **Active**: currently used in the working model.
-- **Governance**: defines editing, revision, overwrite, access, or source-protection rules.
+- **Governance**: defines editing, revision, overwrite, access, source-protection, or enumeration rules.
 - **Provisional**: active but open to review and amendment.
+- **Expansion Scaffold**: future-facing model structure that is not yet an operationalized assessment system.
+- **Source-Review Needed**: requires empirical source review before being treated as official model structure.
 - **Superseded**: retained as historical reference but no longer governing.
-- **Review Pending**: known model-relevant file requiring review against current architecture.
 - **Archival**: source/reference material not currently governing the active model.
 - **Automation**: workflow or procedural file that supports repository governance.
 
 ---
 
-## Current Active / Governance Files
+## Current Active / Governance / Expansion Files
 
 | Path | Status | Function |
 |---|---|---|
@@ -41,28 +42,19 @@ The manifest is a working index. It should be updated whenever a model-relevant 
 | `docs/assessment/three-pass-methodology.md` | Active / Provisional | Reframed repeated-review methodology, not a fixed three-pass requirement |
 | `docs/symbols/context-symbol-layer.md` | Active / Provisional | Neutral non-scoring symbol layer for reconciliation and cross-reference |
 | `docs/karma/taxonomy-karma-boundary.md` | Active / Provisional | Boundary between personality taxonomy and Karma interpretation |
-| `docs/card-system/aspect-facet-taxonomy.md` | Active / Provisional | Updated candidate facet scaffold aligned with the ten-aspect model |
-| `docs/card-system/domain-cards.md` | Active / Provisional | Updated five-domain-family reference model |
-| `docs/card-system/karma-system-model.md` | Active / Provisional | Updated Karma model with non-scoring review boundary |
-| `docs/card-system/rough-expression-library-model.md` | Active / Provisional | Updated expression schema aligned with symbols, Karma review, and ten-aspect taxonomy |
-| `docs/personality/personality-assessment-architecture.md` | Active / Provisional | Updated architecture without locked language or required three-pass assumption |
-
----
-
-## Known Review-Pending Files
-
-These files were visible in the repository tree and may contain useful material, older assumptions, or partially compatible structures. They should be reviewed before future digital infrastructure treats them as active schema.
-
-| Path | Status | Review Reason |
-|---|---|---|
-| `docs/personality/facet-framework.md` | Review Pending | Likely compatible but should be aligned with candidate-facet language |
-| `docs/personality/reconciliation-framework.md` | Review Pending | Likely compatible but should be aligned with symbol-derived and Karma-derived reconciliation context |
-| `docs/personality/expression-validation-model.md` | Review Pending | May need scale/schema distinction from aspect card response sorting |
-| `docs/card-system/card-architecture.md` | Review Pending | Should be reviewed for older layer naming or fixed procedure language |
-| `docs/card-system/facet-card-model.md` | Review Pending | Should be aligned with candidate facet status and current schema language |
-| `docs/card-system/identity-map-layout.md` | Review Pending | Should be reviewed for consistency with current hierarchy and future digital planning |
-| `docs/card-system/reconciliation-cards.md` | Review Pending | Should be aligned with updated reconciliation and symbol procedures |
-| `docs/card-system/symbol-system.md` | Review Pending | Should be compared against current non-scoring symbol layer |
+| `docs/card-system/aspect-facet-taxonomy.md` | Active / Provisional | Candidate facet scaffold aligned with the ten-aspect model |
+| `docs/card-system/card-architecture.md` | Active / Provisional | Card architecture aligned with hierarchy, symbols, and Karma boundary |
+| `docs/card-system/domain-cards.md` | Active / Provisional | Five-domain-family reference model |
+| `docs/card-system/karma-system-model.md` | Active / Provisional | Karma model with non-scoring review boundary |
+| `docs/card-system/rough-expression-library-model.md` | Active / Provisional | Expression schema aligned with symbols, Karma review, and ten-aspect taxonomy |
+| `docs/personality/personality-assessment-architecture.md` | Active / Provisional | Architecture without locked language or required three-pass assumption |
+| `docs/personality/facet-framework.md` | Active / Provisional | Candidate-facet framework and digital schema boundary |
+| `docs/personality/reconciliation-framework.md` | Active / Provisional | Reconciliation framework aligned with symbols and Karma review context |
+| `docs/personality/expression-validation-model.md` | Active / Provisional | Expression validation boundaries and schema distinction |
+| `docs/ecology/distal-influences.md` | Expansion Scaffold / Source-Review Needed | Future ecological/developmental integration context |
+| `docs/ecology/proximal-influences.md` | Expansion Scaffold / Source-Review Needed | Future ecological/relational integration context |
+| `docs/identity/identity-development.md` | Expansion Scaffold / Source-Review Needed | Future identity-development integration context |
+| `docs/identity/master-identity-tree.md` | Expansion Scaffold / Source-Review Needed | Future holistic identity tree scaffold |
 
 ---
 
