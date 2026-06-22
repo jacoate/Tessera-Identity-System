@@ -25,6 +25,7 @@ docs/card-system/domain-cards.md
 docs/card-system/karma-system-model.md
 docs/card-system/rough-expression-library-model.md
 docs/chat-context/2026-06-21-expression-library-model.md
+docs/chat-context/2026-06-21-measurement-math-roadmap.md
 docs/chat-context/2026-06-21-taxonomy-decisions.md
 docs/chat-context/2026-06-21-token-economy-discussion.md
 docs/ecology/distal-influences.md
