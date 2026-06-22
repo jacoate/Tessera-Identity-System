@@ -24,6 +24,7 @@ docs/card-system/card-architecture.md
 docs/card-system/domain-cards.md
 docs/card-system/karma-system-model.md
 docs/card-system/rough-expression-library-model.md
+docs/chat-context/2026-06-21-taxonomy-decisions.md
 docs/ecology/distal-influences.md
 docs/ecology/proximal-influences.md
 docs/governance/model-file-manifest.md
