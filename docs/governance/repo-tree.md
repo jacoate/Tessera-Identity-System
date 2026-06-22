@@ -17,6 +17,7 @@ The manifest identifies which files are considered active, governance-relevant, 
 ```text
 .github/workflows/update-repo-tree.yml
 README.md
+docs/archive/unimplemented-ideas-and-future-work.md
 docs/assessment/aspect-questioning-model.md
 docs/assessment/three-pass-methodology.md
 docs/card-system/aspect-facet-taxonomy.md
