@@ -41,6 +41,7 @@ docs/personality/expression-validation-model.md
 docs/personality/facet-framework.md
 docs/personality/personality-assessment-architecture.md
 docs/personality/reconciliation-framework.md
+docs/project-context/current-development-context.md
 docs/symbols/context-symbol-layer.md
 docs/taxonomy/june-21-integration-map.md
 docs/taxonomy/provisional-primary-aspect-set.md
