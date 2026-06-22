@@ -1,457 +1,185 @@
-# Chat Context Archive: Aspect / Facet Taxonomy Decisions
+# Chat Context Archive: June 21 Aspect / Facet Taxonomy Decisions
 
 Date: 2026-06-21  
-Scope: This file summarizes only decisions and reasoning established in the current chat. It intentionally excludes broader project context unless it was explicitly discussed in this chat.
+Status: Superseded / Source Reference  
+Scope: Tessera card-based Personality / Karma model only
 
 ---
 
-# Purpose
+## Supersession Notice
 
-This file records the working decisions made in this chat regarding the Tessera Aspect / Facet taxonomy.
+This file records a historical chat-based taxonomy design pass. It is retained as source-lineage and candidate-facet material.
 
-The taxonomy remains a draft and is intended for later review after expression-library generation exposes hidden redundancy or weak semantic separation.
+It should not be treated as the active personality aspect schema.
 
----
-
-# Structural Position
-
-The working Tessera personality hierarchy remains:
+The June 21 working aspect set contained:
 
 ```text
-Domain
-↓
-Aspect
-↓
-Facet
-↓
-Expression
-↓
-Reconciliation
+Agency
+Social Vitality
+Communion
+Self-Regulation
+Emotional Stability
+Exploration
+Honesty
+Reflection
 ```
 
-Working interpretation from this chat:
+That eight-aspect structure has been superseded by the current provisional ten-aspect taxonomy:
 
-- Domains are broad organizational anchors.
-- Aspects are broad personality operating systems.
-- Facets are narrower tendency channels.
-- Expressions are observer-readable behavioral evidence.
-- Reconciliation explains mismatches between assessment, self-concept, observer perception, and behavioral evidence.
+```text
+Extraversion
+- Assertiveness
+- Enthusiasm
+
+Agreeableness
+- Compassion
+- Politeness
+
+Conscientiousness
+- Industriousness
+- Orderliness
+
+Negative Emotionality / Neuroticism
+- Withdrawal
+- Volatility
+
+Openness / Intellect
+- Openness
+- Intellect
+```
+
+The integration map for this file is maintained at:
+
+```text
+docs/taxonomy/june-21-integration-map.md
+```
 
 ---
 
-# Major Taxonomy Decisions
+## Why the June 21 Model Was Superseded
 
-## Communion retained
+The June 21 model was valuable for broad semantic exploration, but less precise as an aspect-testing architecture.
 
-Communion was retained as a personality aspect.
+Primary issues:
 
-It is not treated as virtue or morality.
+- several aspects functioned more like broad meta-clusters than testable aspect units;
+- Agency bundled assertiveness, initiative, achievement, self-efficacy, perseverance, visibility, and courage;
+- Self-Regulation bundled industriousness, orderliness, attention, reliability, prudence, and deliberation;
+- Emotional Stability framed positive regulation capacities rather than separating Withdrawal and Volatility;
+- Honesty reintroduced moral and Honesty-Humility material that is now routed to Karma, neutral symbols, source lineage, or reconciliation context;
+- Reflection included important self/identity and metacognitive content that may belong in reconciliation or future identity modules rather than the primary card-based personality taxonomy.
 
-Working distinction:
+The supersession does not imply the June 21 material has no value. It means the eight-aspect structure should not govern the active schema.
+
+---
+
+## Preserved Decisions and Useful Source Material
+
+The following June 21 decisions remain useful as source reasoning:
+
+### Communion retained as non-moral relational orientation
+
+June 21 distinguished:
 
 ```text
 Communion = relational orientation
 Karma = ethical direction / quality of relational behavior
 ```
 
-This allows combinations such as:
+This remains conceptually useful, but Communion is now distributed primarily into Compassion and Politeness.
 
-```text
-High Communion + Low Karma
-Low Communion + High Karma
-```
+### Warmth moved away from Social Vitality
 
-## Warmth moved to Communion
+Warmth was judged to describe relational receptivity and emotional welcome more than social energy. This remains useful. Warmth may be used as candidate material for Compassion, and in some contexts Enthusiasm if it functions as expressive positive approach.
 
-Warmth was moved from Social Vitality to Communion.
+### Hedonism removed
 
-Reason:
+Hedonism was removed because it was too broad and ambiguous for the personality taxonomy. This remains compatible with the current model.
 
-- Warmth describes relational receptivity and emotional welcome.
-- Social Vitality describes social energy and sustained engagement.
+### Attachment Security folded into broader Security
 
-## Hedonism removed
+Security remains useful as possible Withdrawal-related material or future attachment/object-relations source material. It should not be expanded into attachment theory without source review.
 
-Hedonism was removed from the personality taxonomy.
+### Intellectual Curiosity renamed Inquisitiveness
 
-Reason:
+The term Inquisitiveness remains useful because it avoids implying intelligence or ability. It may be used under Intellect as inquiry-oriented engagement.
 
-- It was judged too semantically broad.
-- It introduced ambiguity around pleasure-seeking rather than social vitality.
+### Discovery Orientation removed
 
-## Attachment Security folded into Security
+Discovery Orientation was removed because it overlapped with Inquisitiveness, Novelty Seeking, and Experimentation. This remains compatible with the current model.
 
-Attachment Security was not retained as a standalone facet.
+### Social Confidence reframed as Social Stamina
 
-It was consolidated under the broader facet:
+Social Stamina remains useful as Enthusiasm candidate material when it refers to maintaining engagement under social demand.
 
-```text
-Security
-```
+### Reliability distinguished from Honor
 
-Reason:
-
-Security can later branch into mechanisms or expression clusters such as:
-
-- Relational security
-- Attachment-style security
-- Situational security
-- Self-security
-- Future security
-- Social security
-
-## Intellectual Curiosity renamed Inquisitiveness
-
-The term Intellectual Curiosity was considered semantically problematic because it may imply intelligence or cognitive ability.
-
-The intended meaning was curiosity directed toward inquiry, information, learning, and understanding.
-
-Final working replacement:
-
-```text
-Inquisitiveness
-```
-
-Reason:
-
-- More readable.
-- Avoids implying intelligence.
-- Still captures inquiry, investigation, learning, and understanding.
-
-## Discovery Orientation removed
-
-Discovery Orientation was removed.
-
-Reason:
-
-Its semantic territory overlapped heavily with:
-
-- Inquisitiveness
-- Novelty Seeking
-- Experimentation
-
-It was judged more like a consequence or composite of those facets than a distinct facet.
-
-## Social Confidence removed from Agency and renamed conceptually
-
-Social Confidence was removed from Agency.
-
-The construct was reinterpreted as the capacity to remain socially engaged in large, dynamic, demanding environments.
-
-Final working replacement under Social Vitality:
-
-```text
-Social Stamina
-```
-
-Reason:
-
-- Social Confidence was too vague.
-- The construct concerns social energy reserve and depletion.
-- It fits the Social Vitality idea of a vitality bar that depletes under social constraint and accessibility demands.
-
-## Reliability retained under Self-Regulation
-
-Reliability remains under Self-Regulation.
-
-Working distinction:
+June 21 distinguished:
 
 ```text
 Honor = value placed on one's word
 Reliability = behavioral execution of obligations and expectations
 ```
 
-Reliability was understood as discipline and consistent follow-through under obligation, even when motivation drops.
+Current handling:
 
-## Honor retained under Honesty
-
-Honor was added under Honesty.
-
-Working meaning:
-
-```text
-Treating commitments, obligations, duties, and one's word as binding principles of conduct.
-```
-
-Promise Keeping was removed as a facet and treated as an expression under either Honor or Reliability.
+- Reliability may be candidate material under Industriousness when it concerns behavioral follow-through.
+- Honor is not an active personality aspect. It may route to Karma, symbols, or source-lineage context when ethically activated.
 
 ---
 
-# Current Aspect Set
+## Current Integration Summary
 
-The current taxonomy contains eight aspects:
-
-1. Agency
-2. Social Vitality
-3. Communion
-4. Self-Regulation
-5. Emotional Stability
-6. Exploration
-7. Honesty
-8. Reflection
-
----
-
-# Current Facet Set
-
-## 1. Agency
-
-Core theme:
-
-```text
-Influence, initiative, effectiveness, goal pursuit, and directed action.
-```
-
-Facets:
-
-- Assertiveness
-- Leadership
-- Initiative
-- Influence
-- Self-Efficacy
-- Achievement Orientation
-- Courage
-- Visibility / Presence
-- Perseverance
-
-Notes:
-
-- Social Confidence was removed from Agency.
-- Visibility / Presence remains related to comfort being seen or noticed, not necessarily attention-seeking.
-
----
-
-## 2. Social Vitality
-
-Core theme:
-
-```text
-Social energy, interpersonal activation, expressive positivity, and the capacity to sustain engagement in dynamic social environments.
-```
-
-Facets:
-
-- Sociability
-- Enthusiasm
-- Humor
-- Playfulness
-- Positive Affect
-- Affability
-- Personal Disclosure
-- Social Participation
-- Social Stamina
-
-Notes:
-
-- Social Vitality behaves like a social energy reserve.
-- Social Stamina specifically covers sustained engagement under social demand.
-- Warmth was moved to Communion.
-- Hedonism was removed.
-
----
-
-## 3. Communion
-
-Core theme:
-
-```text
-Relational orientation, interpersonal concern, affiliative tendency, and natural responsiveness to others.
-```
-
-Facets:
-
-- Compassion
-- Trust
-- Cooperation
-- Protectiveness
-- Warmth
-
-Notes:
-
-- Communion is not virtue.
-- Karma evaluates ethical direction and quality of relational behavior.
-- Empathy, Altruism, Fairness, Forgiveness, Gratitude, and similar moralized constructs were not placed under Communion in this chat.
-
----
-
-## 4. Self-Regulation
-
-Core theme:
-
-```text
-Discipline, planning, behavioral control, attention management, and consistent follow-through.
-```
-
-Facets:
-
-- Organization
-- Planning
-- Prudence
-- Self-Discipline
-- Persistence
-- Deliberation
-- Detail Consciousness
-- Reliability
-- Attention Control
-
-Notes:
-
-- Orderliness and Organization were consolidated into Organization.
-- Reliability remains under Self-Regulation.
-- Honor handles the value of one's word.
-- Reliability handles execution of commitments.
-- Prudence and Deliberation remain separate.
-
-Prudence:
-
-```text
-Consequence sensitivity, risk forecasting, and long-term cost awareness.
-```
-
-Deliberation:
-
-```text
-Considering options before choosing or acting.
-```
-
----
-
-## 5. Emotional Stability
-
-Core theme:
-
-```text
-Emotional regulation, resilience, security, recovery, and tolerance of stress or affective disruption.
-```
-
-Facets:
-
-- Emotional Regulation
-- Emotional Recovery
-- Emotional Threshold
-- Mood Stability
-- Security
-- Stress Tolerance
-- Emotional Awareness
-
-Notes:
-
-- Attachment Security was consolidated into Security.
-- Stress Tolerance and Frustration Tolerance were consolidated into Stress Tolerance.
-- Anxiety Regulation was removed as a separate facet and treated as a possible mechanism or expression within Emotional Regulation.
-
----
-
-## 6. Exploration
-
-Core theme:
-
-```text
-Curiosity, novelty, imagination, intellectual engagement, complexity tolerance, and discovery through thought or experience.
-```
-
-Facets:
-
-- Inquisitiveness
-- Creativity
-- Imagination
-- Abstract Thinking
-- Aesthetic Appreciation
-- Novelty Seeking
-- Need for Cognition
-- Tolerance for Ambiguity
-- Experimentation
-
-Notes:
-
-- Intellectual Curiosity was renamed Inquisitiveness.
-- Discovery Orientation was removed.
-
----
-
-## 7. Honesty
-
-Core theme:
-
-```text
-Truthfulness, transparency, reciprocity, principled conduct, and respect for one's word.
-```
-
-Facets:
-
-- Truthfulness
-- Transparency
-- Reciprocity
-- Authentic Communication
-- Sincerity
-- Fairness
-- Honor
-
-Notes:
-
-- Honesty is not duplicated as its own facet.
-- Promise Keeping was removed as a facet.
-- Promise Keeping may appear as an expression under Honor or Reliability.
-
----
-
-## 8. Reflection
-
-Core theme:
-
-```text
-Self-awareness, metacognition, perspective-taking, self-evaluation, meaning construction, and revision of beliefs or identity.
-```
-
-Facets:
-
-- Introspection
-- Extrospection
-- Self-Knowledge
-- Perspective Taking
-- Metacognition
-- Meaning-Making
-- Identity Coherence
-- Self-Evaluation
-- Belief Examination
-- Cognitive Flexibility
-
-Notes:
-
-- Reflection houses introspective, extrospective, metacognitive, and meaning-oriented facets that were not cleanly represented by Exploration alone.
-
----
-
-# Excluded or Reassigned Constructs
-
-| Construct | Current Handling |
+| June 21 cluster | Current handling |
 |---|---|
-| Hedonism | Removed due to weak fit and semantic ambiguity. |
-| Discovery Orientation | Removed due to overlap with Inquisitiveness, Novelty Seeking, and Experimentation. |
-| Attachment Security | Mechanism or expression cluster under Security. |
-| Promise Keeping | Expression under Honor or Reliability. |
-| Punitive | Better suited to Karma rather than personality taxonomy. |
-| Spirituality | Identity or worldview content, not current personality taxonomy. |
-| Traditionalism | Identity or worldview content, not current personality taxonomy. |
+| Agency | Distributed into Assertiveness, Industriousness, candidate facets, and reconciliation cues. |
+| Social Vitality | Routed primarily to Enthusiasm. |
+| Communion | Distributed into Compassion and Politeness. |
+| Self-Regulation | Distributed into Industriousness and Orderliness. |
+| Emotional Stability | Reframed through Withdrawal and Volatility, with recovery/security material as candidate or reconciliation context. |
+| Exploration | Split into Openness and Intellect. |
+| Honesty | Not active as personality aspect; routed to Karma, symbols, wording, source lineage, or reconciliation. |
+| Reflection | Preserved for reconciliation, identity mapping, development orientation, future self/identity modules, and selected Intellect candidate material. |
 
 ---
 
-# Current Count
+## Current Use Restriction
 
-Total active facets discussed in this chat:
+This file may be used for:
 
-```text
-65
-```
+- candidate facet generation;
+- expression prompt development;
+- semantic comparison;
+- source-lineage documentation;
+- reconciliation cue development;
+- future identity or metacognitive module planning.
+
+This file should not be used for:
+
+- active aspect schema generation;
+- digital database primary aspect tables;
+- reintroducing Honesty or Honesty-Humility as active score branches;
+- automatic conversion from personality response to Karma result;
+- claims of empirical validation.
 
 ---
 
-# Review Status
+## Scientific / Speculative Boundary
 
-The taxonomy is considered:
+The June 21 decisions were Tessera-specific speculative design decisions unless otherwise supported by cited empirical source material.
+
+Empirically supported constructs should be preserved, routed, cited, or reviewed rather than overwritten. Tessera-specific constructs should remain labeled as provisional until validated or formally revised.
+
+---
+
+## Review Status
+
+This file is preserved as a source archive and has been integrated into the current ten-aspect model through:
 
 ```text
-Expression-ready but not final.
+docs/taxonomy/june-21-integration-map.md
+docs/card-system/aspect-facet-taxonomy.md
 ```
 
-Further review should occur after expression-library generation reveals whether any facets fail to produce distinct observable behaviors.
+Further review should occur during facet drafting to determine whether each candidate facet can produce distinct, observable expression cards without duplicating another facet, an aspect, a symbol, or a Karma dimension.
