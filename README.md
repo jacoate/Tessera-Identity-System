@@ -2,11 +2,13 @@
 
 ## Provisional Personality, Morality, and Identity Mapping System
 
-Tessera is a developing identity-mapping framework focused first on analog card-based modeling of personality expression, morality, reconciliation, and self-interpretation.
+Tessera is a developing identity-mapping framework focused first on modeling personality expression, morality, reconciliation, and self-interpretation.
 
-The current implementation focus is physical tabletop/card architecture. The system does not currently rely on a digital database, automated utility function, or software-driven scoring engine.
+The broader project direction may later expand into more detailed theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. Those future expansions should preserve the distinction between empirical source material, Tessera-specific speculative modeling, and validated assessment claims.
 
-The broader project direction may later expand into more detailed theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. Those future expansions should preserve the distinction between empirical source material, Tessera-specific speculative modeling, entertainment mechanics, and validated assessment claims.
+The original concept was to assist individuals with mapping their identity to help people discover their ecological uniqueness and the identity developed from a user appraising life events and the resulting narrative identity. 
+
+The primary purpose of this project is to work toward making individuals cognizant of personal nuances while guiding them into recognition of other's similaries even within common correlations observing differing results
 
 ## Current Working Hierarchy
 
