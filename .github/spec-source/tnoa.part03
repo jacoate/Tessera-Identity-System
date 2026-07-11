@@ -1,0 +1,338 @@
+ge it? |
+
+These axes should support continuous, categorical, network, and qualitative representations where appropriate. They should not be summed into a global morality score by default.
+
+---
+
+# 9. Standard Construct Development Packet
+
+Every workstream must complete the same packet before integration.
+
+## 9.1 Conceptual specification
+
+- formal definition;
+- plain-language definition;
+- necessary features;
+- optional features;
+- exclusion criteria;
+- neighboring constructs;
+- common conflations;
+- classification as state, trait, process, structure, outcome, or mixed construct.
+
+## 9.2 Facet structure
+
+- proposed facets;
+- reflective versus formative status;
+- expected relations among facets;
+- conditions under which facets dissociate;
+- cultural and developmental variation;
+- candidate higher-order relations.
+
+## 9.3 Developmental account
+
+- earliest precursors;
+- typical developmental transformations;
+- sensitive periods or developmental dependencies;
+- socialization pathways;
+- identity integration;
+- adult revision;
+- possible aging-related changes;
+- equifinality and multifinality.
+
+## 9.4 Bioecological account
+
+- proximal processes;
+- person characteristics;
+- microsystem sources;
+- mesosystem conflicts;
+- exosystem pressures;
+- macrosystem narratives;
+- chronosystem changes;
+- repeated person-context transactions.
+
+## 9.5 Mechanistic account
+
+- automatic activation;
+- reflective processing;
+- affect;
+- memory;
+- learning and reinforcement;
+- identity protection;
+- constraint load;
+- accessibility;
+- capability and control;
+- behavior-consequence feedback.
+
+## 9.6 Measurement specification
+
+- self-report;
+- interview;
+- scenario task;
+- behavioral task;
+- informant data;
+- naturalistic observation;
+- longitudinal sampling;
+- process measures;
+- scoring and coding rules;
+- missing-data handling;
+- uncertainty representation.
+
+## 9.7 Validity risks
+
+- social desirability;
+- demand characteristics;
+- cultural bias;
+- literacy and education effects;
+- ideological framing;
+- retrospective distortion;
+- impression management;
+- confusion with intelligence;
+- confusion with conformity;
+- inference beyond evidence;
+- evaluator bias;
+- criterion contamination.
+
+## 9.8 Tessera implementation
+
+- object types;
+- link types;
+- accessibility variables;
+- constraint variables;
+- temporal properties;
+- source provenance;
+- confidence level;
+- evidence classification;
+- graph queries;
+- reporting rules.
+
+## 9.9 Advancement gate
+
+A construct may advance to integration only when:
+
+1. its definition and boundaries are approved;
+2. its closest neighboring constructs are explicitly differentiated;
+3. its measurement modes are matched to its structure;
+4. foreseeable bias risks are documented;
+5. the evidence level is declared;
+6. the graph representation does not imply more certainty than the evidence supports.
+
+---
+
+# 10. Normative Decision Episode
+
+The primary semantic unit is an episode rather than a person-level score.
+
+## 10.1 Human-readable template
+
+> In context C, toward target T, the person regards action A as required, permitted, optional, discouraged, or forbidden because of reason R, grounded in value V and authority S, given factual premise B, intending outcome O, while accepting or rejecting consequence H, with confidence Q and cost-bearing willingness K.
+
+## 10.2 Required fields
+
+```text
+episode_id
+actor
+observer_or_source
+perceived_situation
+objective_context_if_available
+role
+audience
+target
+target_identity_or_category
+relationship
+power_differential
+available_actions
+selected_action
+normative_domain
+normative_status
+activated_values
+applied_principles
+perceived_descriptive_norms
+perceived_injunctive_norms
+personal_norms
+ideological_frame
+authority_source
+factual_premises
+causal_premises
+expected_outcomes
+immediate_motives
+intended_beneficiary
+intended_burden
+foreseen_harms
+accepted_harms
+rejected_alternatives
+responsibility_judgment
+intention_strength
+implementation_plan
+perceived_control
+capabilities
+opportunities
+constraint_load
+actual_behavior
+actual_outcome
+perceived_outcome
+post_event_justification
+emotional_response
+narrative_meaning
+identity_implication
+revision_or_reinforcement
+evidence_source
+confidence
+timestamp
+validation_status
+```
+
+## 10.3 Semantic safeguards
+
+- `intended_burden` must remain separate from `foreseen_harm`.
+- `perceived_outcome` must remain separate from `actual_outcome`.
+- `post_event_justification` must not overwrite the prospective intention record.
+- `public_response` and `private_response` must remain separately representable.
+- inferred motives or intentions must be labeled as inference, not direct report.
+- target-group labels should preserve the participant's categorization and a neutral research coding, where appropriate.
+- harmful or false beliefs may be represented descriptively without being normalized or endorsed.
+
+---
+
+# 11. Graph implementation
+
+## 11.1 Core nodes
+
+- Person
+- Role
+- Relationship
+- Group
+- Institution
+- Context
+- Event
+- Action
+- Target
+- Value
+- Principle
+- Norm
+- Ideology
+- Moralized Concern
+- Ethical Mode
+- Factual Premise
+- Causal Premise
+- Motive
+- Intention
+- Capability
+- Constraint
+- Behavior
+- Consequence
+- Emotion
+- Narrative
+- Identity Commitment
+- Evidence Source
+
+## 11.2 Core relations
+
+```text
+Person -> endorses -> Value
+Person -> applies -> Principle
+Person -> perceives -> Norm
+Person -> identifies_with -> Ideology
+Person -> believes -> Factual Premise
+Person -> occupies -> Role
+Person -> relates_to -> Target
+
+Judgment -> concerns -> Action
+Judgment -> targets -> Person/Group/Object
+Judgment -> assigns -> Normative Status
+Judgment -> justified_by -> Reason
+Judgment -> authorized_by -> Authority Source
+Judgment -> activated_in -> Context
+Judgment -> prioritizes -> Value
+Judgment -> tolerates -> Harm
+Judgment -> attributes -> Responsibility
+
+Judgment -> generates -> Intention
+Intention -> implemented_by -> Plan
+Intention -> constrained_by -> Constraint
+Intention -> enabled_by -> Capability
+Intention -> expressed_as -> Behavior
+Behavior -> produces -> Consequence
+Consequence -> updates -> Narrative/Association/Value/Principle
+```
+
+## 11.3 Link metadata
+
+Every relation may include:
+
+- strength;
+- confidence;
+- valence;
+- source;
+- first-observed and last-observed dates;
+- context specificity;
+- frequency;
+- recency;
+- contradiction markers;
+- validation status;
+- privacy classification.
+
+## 11.4 Computational restraint
+
+Graph centrality, clustering, similarity, and prediction may assist exploration. They must not be presented as validated psychological meaning until tested against independent criteria and human review.
+
+---
+
+# 12. Measurement battery
+
+No single questionnaire should be treated as sufficient.
+
+## 12.1 Instrument 1: Normative orientation interview
+
+Purpose:
+
+- elicit values, rules, loyalties, prohibitions, authorities, and exceptions in the participant's own language;
+- preserve emic meaning before standardized coding;
+- identify personally salient domains;
+- generate candidate scenarios for later testing.
+
+Primary outputs:
+
+- self-defined values;
+- principle statements;
+- authority sources;
+- moralized domains;
+- exception rules;
+- identity commitments;
+- unresolved contradictions.
+
+## 12.2 Instrument 2: Factorial scenario system
+
+Systematically vary:
+
+- target identity;
+- relationship;
+- in-group versus out-group;
+- harm severity;
+- intentionality;
+- foreseeability;
+- legality;
+- authority instruction;
+- audience;
+- scarcity;
+- threat;
+- personal cost;
+- group benefit;
+- certainty of evidence;
+- power asymmetry;
+- role obligation;
+- reversibility.
+
+Primary output:
+
+Context coefficients indicating which features change judgment, intention, punishment, tolerance, or willingness to act.
+
+## 12.3 Instrument 3: Trade-off battery
+
+Candidate conflicts include:
+
+- welfare versus loyalty;
+- autonomy versus protection;
+- equality versus hierarchy;
+- truth versus relationship preservation;
+- individual rights versus collective security;
+- rule consistency versus exceptional
