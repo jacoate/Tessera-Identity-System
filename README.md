@@ -1,18 +1,16 @@
 # Tessera Identity System
 
-## Provisional Personality, Morality, and Identity Mapping System
+## Provisional Personality, Normative Orientation, and Identity Mapping System
 
-Tessera is a developing identity-mapping framework focused first on modeling personality expression, morality, reconciliation, and self-interpretation.
+Tessera is a developing identity-mapping framework focused on personality expression, normative orientation, reconciliation, ecological development, and self-interpretation.
 
-The broader project direction may later expand into more detailed theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. Those future expansions should preserve the distinction between empirical source material, Tessera-specific speculative modeling, and validated assessment claims.
+The original concept is to help individuals map the ecological uniqueness of their identity, including how life events are appraised, integrated into narrative identity, and expressed through decisions and behavior. The project aims to make personal nuance easier to recognize while also showing how similar influences may produce different outcomes across people and contexts.
 
-The original concept was to assist individuals with mapping their identity to help people discover their ecological uniqueness and the identity developed from a user appraising life events and the resulting narrative identity. 
-
-The primary purpose of this project is to work toward making individuals cognizant of personal nuances while guiding them into recognition of other's similaries even within common correlations observing differing results
+The broader direction may expand into theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. All expansions must preserve the distinction between empirical source material, Tessera-specific integrative structures, speculative hypotheses, and validated assessment claims.
 
 ## Current Working Hierarchy
 
-The current working structure is provisional:
+The current personality and expression structure is provisional:
 
 ```text
 DOMAIN FAMILY
@@ -22,7 +20,55 @@ DOMAIN FAMILY
 -> RECONCILIATION
 ```
 
-This hierarchy is used as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future database field should be treated as locked against review.
+This hierarchy is a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, normative-orientation variable, or future database field should be treated as locked against review.
+
+## Normative Orientation Architecture
+
+The **Tessera Normative Orientation Architecture (TNOA)** is the developing descriptive framework for mapping how a person determines what is required, permitted, prohibited, excusable, praiseworthy, blameworthy, or justifiable.
+
+TNOA separately examines:
+
+- values;
+- principles;
+- norms;
+- ideology and worldview;
+- morality and moralization;
+- ethical reasoning modes;
+- factual and causal premises;
+- motives;
+- intentions;
+- behavior and consequences;
+- ecological and developmental context;
+- revisability, contradiction, and uncertainty.
+
+Its primary unit is the **Normative Decision Episode**, not a global morality score. The architecture is intended to describe how judgments are formed and expressed before any external ethical benchmark is applied.
+
+Current specification:
+
+- [Markdown source](docs/specifications/tnoa-development-and-measurement-specification-v0.1.md)
+- [PDF review edition](docs/specifications/tnoa-development-and-measurement-specification-v0.1.pdf)
+
+Status: **Active / Provisional / Expansion Scaffold**. The specification is not yet a validated psychological theory, assessment, diagnostic instrument, or moral-authority system.
+
+## Personality, TNOA, Karma, and Reconciliation
+
+The systems serve different functions:
+
+```text
+Personality Taxonomy
+= describes dispositional tendencies, expression patterns, and contextual variability.
+
+Normative Orientation Architecture
+= describes how values, principles, norms, ideology, premises, motives, and context produce judgments and intentions.
+
+Karma
+= provides a provisional ethical-review and evaluative overlay for cost, harm, power, concealment, accountability, consequence, and related conflicts.
+
+Reconciliation
+= reviews apparent mismatches and competing explanations without automatically assuming error, deception, or moral failure.
+```
+
+Personality results must not be converted automatically into moral conclusions. TNOA descriptions must not be presented as ethical approval. Karma interpretations must remain provisional unless an explicit benchmark and adequate validation support stronger claims.
 
 ## Revision Governance
 
@@ -35,7 +81,7 @@ Any modification that may overwrite, replace, or materially reinterpret an exist
 3. which affected files, decks, cards, symbols, procedures, or future data structures may need review;
 4. whether the change affects scoring, interpretation, routing, reconciliation, manual language, or future schema design.
 
-No update should imply absolute finality. Manual language should use non-absolute phrasing such as “suggests,” “is consistent with,” “may indicate,” or “appears to reflect,” especially where empirical validation has not yet been completed.
+No update should imply absolute finality. Manual language should use non-absolute phrasing such as "suggests," "is consistent with," "may indicate," or "appears to reflect," especially where empirical validation has not been completed.
 
 ## Empirical Preservation Rule
 
@@ -71,7 +117,7 @@ Openness / Intellect
 - Intellect
 ```
 
-Honesty-Humility is not currently preserved as an active taxonomy domain or scored bridge. Its useful content may be decomposed into Karma dimensions, neutral symbol references, question wording, reconciliation context, or source-lineage documentation when doing so adds nonredundant function.
+Honesty-Humility is not currently preserved as an active taxonomy domain or scored bridge. Its useful content may be decomposed into Karma dimensions, TNOA descriptive variables, neutral symbol references, question wording, reconciliation context, or source-lineage documentation when doing so adds nonredundant function.
 
 ## Aspect Assessment Principle
 
@@ -81,7 +127,7 @@ The manual may include charts that trace answer patterns to behavioral consisten
 
 ## Symbol Layer
 
-Selected cards may include neutral contextual symbols. Symbols are non-scoring reference markers that help connect personality responses to later reconciliation or Karma interpretation when relevant.
+Selected cards may include neutral contextual symbols. Symbols are non-scoring reference markers that help connect personality responses to later reconciliation, TNOA, or Karma interpretation when relevant.
 
 Symbols do not:
 
@@ -89,19 +135,9 @@ Symbols do not:
 - create moral judgments;
 - prove intent;
 - accumulate into hidden trait scores;
-- convert taxonomy results into Karma results.
+- convert taxonomy results into Karma or TNOA results.
 
-Their role is referential: they help identify recurring themes that may provide context during conflict review, reconciliation, or Karma scenario interpretation.
-
-## Karma Relationship
-
-The Karma model is treated as a separate moral-context and ethical-conflict mechanism. Personality taxonomy responses should not be used to infer moral character by themselves.
-
-Where constructs overlap, the systems should remain functionally distinct:
-
-- personality taxonomy describes tendencies, expression patterns, and contextual variability;
-- Karma examines ethical meaning under tradeoff, cost, power, concealment, harm, accountability, or consequence;
-- reconciliation explains apparent mismatches without assuming error or moral failure.
+Their role is referential: they help identify recurring themes that may provide context during conflict review, reconciliation, normative-orientation analysis, or Karma scenario interpretation.
 
 ## Repository Scope
 
@@ -114,12 +150,22 @@ Relevant content includes:
 - reconciliation cards;
 - neutral symbol reference materials;
 - Karma scenario and interpretation materials;
+- TNOA specifications, workstreams, ontology, and validation plans;
 - identity mapping procedures;
 - assessment methodology;
 - instruction manual language;
 - governance and source-lineage files;
 - future schema planning notes.
 
+## Documentation and Automation
+
+Repository governance is supported by:
+
+- `docs/governance/model-file-manifest.md` for active and historical file classification;
+- `docs/governance/repo-tree.md` for generated file discovery;
+- `.github/workflows/update-repo-tree.yml` for tree maintenance;
+- `.github/workflows/build-and-validate-specifications.yml` for deterministic PDF generation, Markdown/PDF pairing, and governance-link checks.
+
 ## Project Status
 
-Active analog card-system architecture phase within a broader holistic identity-modeling project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative Tessera structures should remain explicitly labeled until validated.
+Active analog card-system architecture within a broader holistic identity-modeling project. TNOA is now an active provisional expansion scaffold. All structures remain reviewable and amendable. Scientific source material should be protected, while integrative and speculative Tessera structures should remain explicitly labeled until validated.
