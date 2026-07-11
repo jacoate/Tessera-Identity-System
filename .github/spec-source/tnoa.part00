@@ -1,0 +1,125 @@
+# Tessera Normative Orientation Architecture
+## Development and Holistic Measurement Specification
+
+**Document ID:** TNOA-DMS-0.1  
+**Version:** 0.1 Provisional  
+**Date:** 2026-07-11  
+**Status:** Active / Provisional / Expansion Scaffold  
+**Project:** Tessera Identity System  
+**Primary purpose:** Define the staged development, independent construct analysis, semantic representation, measurement strategy, and validation plan for the Tessera Normative Orientation Architecture (TNOA).
+
+---
+
+## Overwrite and reinterpretation notice
+
+This specification introduces **Normative Orientation Architecture** as the descriptive umbrella for values, principles, norms, ideology, morality, ethics, factual premises, motives, intentions, behavior, and developmental updating.
+
+It does **not** delete the existing Karma model or personality taxonomy. It repositions them within a clearer architecture:
+
+- Personality describes dispositional tendencies and characteristic forms of expression.
+- TNOA describes how an individual constructs and applies judgments of requirement, permission, prohibition, justification, blame, entitlement, sacrifice, and responsibility.
+- Karma remains a provisional ethical-review and evaluative overlay rather than the primary descriptive representation of normative identity.
+- Reconciliation remains a mechanism for examining mismatches, ambiguity, competing explanations, and context without assuming error or moral failure.
+
+Affected repository areas include the project overview, model manifest, Karma boundary language, specification index, and documentation workflows. Existing source material is preserved and remains reviewable.
+
+---
+
+# 1. Executive summary
+
+TNOA is intended to answer:
+
+> How does a person construct, prioritize, justify, and enact judgments about what is required, permitted, prohibited, excusable, praiseworthy, blameworthy, or desirable across contexts and over time?
+
+The architecture must not begin by deciding whether a person is good or bad. Its first task is to reconstruct how conduct becomes justifiable to the individual. Ethical evaluation may be applied later through an explicitly declared benchmark.
+
+The model therefore separates three layers:
+
+1. **Descriptive layer:** What the person believes, values, permits, prohibits, intends, and excludes.
+2. **Explanatory layer:** How personality, cognition, affect, development, relationships, learning, ideology, and ecology contribute to those orientations.
+3. **Evaluative layer:** How the orientation compares with a stated ethical, legal, professional, cultural, or human-rights standard.
+
+The core unit of analysis is the **Normative Decision Episode**, not a global morality score. A complete profile is assembled from repeated episodes across roles, relationships, audiences, ecological systems, levels of constraint, and time.
+
+TNOA should be regarded as an integrative developmental identity architecture and hypothesis-generating framework until its constructs, measures, processes, and interpretations are empirically validated.
+
+---
+
+# 2. Scientific position and evidence governance
+
+## 2.1 Evidence levels
+
+TNOA adopts the Tessera evidence-classification approach.
+
+| Level | Classification | Meaning for TNOA |
+|---|---|---|
+| 1 | Empirical foundation | Established research domains may support individual variables or processes, such as values, norms, attitudes, moral judgment, intention, social influence, learning, memory, stress, and developmental context. |
+| 2 | Integrative framework | TNOA combines supported constructs into an organized decision architecture. The integration may be theoretically justified without yet being validated as one unified model. |
+| 3 | Tessera hypothesis | New graph structures, composite variables, automated inference, profile synthesis, contextual coefficients, and developmental update rules require direct testing. |
+
+## 2.2 Evidence rules
+
+- Empirical findings must not be overwritten merely to simplify the model.
+- A construct supported in one research context must not be assumed valid in every culture, age group, or application.
+- Source-informed does not mean psychometrically validated as a Tessera measure.
+- Machine-readable does not mean inferentially reliable.
+- The model must permit `unknown`, `not assessed`, `not applicable`, and `insufficient evidence` states.
+- Every inference should preserve its source, date, context, confidence, and alternative explanations.
+- No single observation should be converted into a stable identity claim without sufficient repeated evidence.
+
+## 2.3 Source lineage
+
+This specification develops the project direction established by:
+
+- Tessera Technical Specification v1.0.
+- Tessera Developmental Identity Framework: Evidence Classification and Cross-Validation Reference.
+- Integrated Psychodevelopmental Life Model.
+- Resources for Developmental Ecological Psychology.
+- Ethical Integrity 12-Dimensional Matrix Model.
+- Repository governance, personality, ecology, identity, Karma, and reconciliation documents.
+
+The architecture also draws conceptually from bioecological, relational-developmental, sociocultural, social-cognitive, narrative-identity, moral-psychology, decision, motivation, intention, and behavioral-learning traditions. These source traditions remain distinct from the Tessera-specific synthesis.
+
+---
+
+# 3. Governing construct
+
+## 3.1 Formal definition
+
+**Normative orientation** is the patterned way an individual assigns authority, priority, permission, obligation, prohibition, entitlement, praise, blame, excuse, and responsibility to possible actions, relationships, outcomes, institutions, identities, and social arrangements.
+
+**Normative Orientation Architecture** is the organized system of values, principles, norms, ideologies, factual premises, moralized concerns, ethical reasoning modes, motives, intentions, contextual conditions, and developmental processes through which those assignments are produced and revised.
+
+## 3.2 Foundational semantic distinction
+
+The architecture distinguishes:
+
+- **Values:** Desired ends, conditions, relationships, identities, or states of affairs.
+- **Principles:** Generalized rules that translate values into judgments.
+- **Norms:** Perceived standards of expected, approved, or role-appropriate conduct.
+- **Ideology:** A larger worldview connecting social categories, history, authority, causality, identity, threat, legitimacy, and prescriptions for social order.
+- **Morality:** Judgments experienced as possessing special force involving obligation, prohibition, entitlement, praise, blame, or deserved sanction.
+- **Ethics:** Reflective or systematized organization of normative judgments and reasons.
+- **Factual premises:** Beliefs about what is true, likely, causal, threatening, beneficial, or historically relevant.
+- **Motives:** Desired outcomes or states energizing action.
+- **Intentions:** Selected commitments to attempt particular actions.
+- **Behavior:** Enacted or omitted conduct under actual opportunities and constraints.
+- **Consequences:** Intended, foreseen, unforeseen, perceived, and actual outcomes.
+
+## 3.3 What morality means in this architecture
+
+Morality is not equated with compassion, harmlessness, conformity, productivity, legality, or social approval. These may become moral contents, but none defines morality by itself.
+
+At its most foundational, morality is a system through which an agent gives certain reasons special normative force over conduct and treatment. An issue becomes moralized when it is experienced not merely as liked, useful, customary, or legal, but as required, forbidden, deserved, blameworthy, praiseworthy, or universally binding.
+
+A coherent, internalized moral system may support humane conduct or harmful ideology. Internalization, conviction, complexity, consistency, and cost-bearing commitment are descriptive properties, not proof of ethical soundness.
+
+---
+
+# 4. Scope and non-goals
+
+## 4.1 In scope
+
+TNOA will represent:
+
+- normati
