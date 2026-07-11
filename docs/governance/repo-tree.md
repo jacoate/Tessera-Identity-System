@@ -15,6 +15,7 @@ The manifest identifies which files are considered active, governance-relevant, 
 ## Full Git-Derived Tree
 
 ```text
+.github/workflows/build-and-validate-specifications.yml
 .github/workflows/update-repo-tree.yml
 README.md
 docs/archive/unimplemented-ideas-and-future-work.md
@@ -43,7 +44,10 @@ docs/personality/facet-framework.md
 docs/personality/personality-assessment-architecture.md
 docs/personality/reconciliation-framework.md
 docs/project-context/current-development-context.md
+docs/specifications/tnoa-development-and-measurement-specification-v0.1.md
+docs/specifications/tnoa-development-and-measurement-specification-v0.1.pdf
 docs/symbols/context-symbol-layer.md
 docs/taxonomy/june-21-integration-map.md
 docs/taxonomy/provisional-primary-aspect-set.md
+scripts/build_tnoa_pdf.py
 ```
