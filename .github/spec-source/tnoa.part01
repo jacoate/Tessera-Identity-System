@@ -1,0 +1,268 @@
+ve content;
+- judgment structure;
+- context-sensitive activation;
+- developmental provenance;
+- public-private divergence;
+- intention-behavior divergence;
+- factual-premise dependence;
+- responsibility and excuse models;
+- harm and beneficiary structure;
+- revisability and identity protection;
+- ecological and historical change;
+- evidence confidence and uncertainty.
+
+## 4.2 Out of scope for initial development
+
+TNOA will not initially provide:
+
+- a global good-versus-evil score;
+- diagnosis of moral character;
+- proof of hidden intent;
+- automatic conversion from personality traits to morality;
+- automatic criminal, clinical, employment, or legal conclusions;
+- universal rankings of cultures or ideologies;
+- deterministic prediction of behavior;
+- claims that articulate reasoning necessarily produces ethical action;
+- claims that social conformity demonstrates internal moral endorsement.
+
+---
+
+# 5. Layered architecture
+
+## 5.1 Level A: Normative source systems
+
+These provide the content from which judgments are constructed:
+
+- values;
+- principles;
+- norms;
+- ideologies and worldviews;
+- moralized concerns;
+- ethical frameworks;
+- identity commitments;
+- factual and causal beliefs;
+- role expectations;
+- narratives of history, threat, legitimacy, and belonging.
+
+## 5.2 Level B: Decision-forming processes
+
+These determine what becomes active in an episode:
+
+- perception and situation construction;
+- schema and association activation;
+- affective appraisal;
+- value activation;
+- principle selection;
+- norm recognition;
+- authority recognition;
+- factual-premise retrieval;
+- outcome forecasting;
+- beneficiary and harm representation;
+- responsibility attribution;
+- justification;
+- deontic classification;
+- motive competition.
+
+## 5.3 Level C: Action formation
+
+These determine whether orientation becomes conduct:
+
+- intention strength;
+- implementation planning;
+- perceived behavioral control;
+- capability;
+- opportunity;
+- role power;
+- constraint load;
+- habit and behavioral momentum;
+- audience and social pressure;
+- risk and sanction expectations;
+- actual execution or omission.
+
+## 5.4 Level D: Developmental updating
+
+These explain how an episode changes the system:
+
+- consequence evaluation;
+- reinforcement or punishment;
+- guilt, shame, pride, resentment, relief, fear, or moral elevation;
+- social approval, rejection, or exclusion;
+- narrative revision;
+- identity consolidation or threat;
+- value reprioritization;
+- ideological reinforcement or disconfirmation;
+- principle modification;
+- accessibility shift;
+- associative reweighting;
+- constraint formation or relaxation.
+
+## 5.5 Core processing sequence
+
+```text
+Person-in-context
+-> Perception and situation construction
+-> Factual and causal interpretation
+-> Value, norm, ideology, and identity activation
+-> Principle or justificatory mode selection
+-> Deontic judgment
+-> Motive competition
+-> Intention and plan
+-> Behavior under capability, opportunity, and constraint
+-> Consequence
+-> Appraisal, narrative integration, and developmental update
+```
+
+The architecture treats the person and context as a dynamic unit. Context is not a decorative variable attached after a judgment has already been scored.
+
+---
+
+# 6. Bioecological organization
+
+TNOA uses the Process-Person-Context-Time model as a developmental organizing frame.
+
+## 6.1 Process
+
+Proximal processes are recurring interactions through which normative structures become practiced and internalized. Examples include:
+
+- caregiver discipline and explanation;
+- conflict and repair;
+- peer inclusion and exclusion;
+- role modeling;
+- religious ritual;
+- school discipline;
+- workplace incentives;
+- political discussion;
+- exposure to media narratives;
+- participation in institutions;
+- repeated encounters with authority, scarcity, privilege, or threat.
+
+## 6.2 Person
+
+Person characteristics include:
+
+- temperament and personality;
+- cognitive and linguistic capacity;
+- attachment expectations;
+- affective responsiveness;
+- executive control;
+- social identity;
+- prior learning;
+- health and stress state;
+- perceived agency;
+- capabilities and vulnerabilities.
+
+These characteristics affect exposure, interpretation, elicited responses from others, and the resources available for reflection. They do not determine normative content by themselves.
+
+## 6.3 Context
+
+### Microsystem
+
+Immediate face-to-face settings such as family, peers, school, religious community, workplace, intimate relationships, and local groups.
+
+### Mesosystem
+
+Relations among microsystems. Contradictory signals between family, school, workplace, peer group, and community may produce compartmentalization, conflict, or selective rule application.
+
+### Exosystem
+
+Settings that affect the individual indirectly, including employment conditions, media systems, institutional policy, neighborhood resources, legal structures, and the decisions of powerful organizations.
+
+### Macrosystem
+
+Cultural narratives, ideologies, economic arrangements, social hierarchies, religious cosmologies, law, historical memory, and accepted models of personhood and authority.
+
+### Chronosystem
+
+Developmental timing, cohort, historical events, transitions, political change, technological change, migration, trauma, conversion, and cumulative exposure.
+
+## 6.4 Time
+
+The model distinguishes:
+
+- microtime: what happens within an episode;
+- mesotime: how patterns repeat across days, months, or recurring roles;
+- macrotime: developmental, cohort, and historical change.
+
+A complete profile must therefore include both stable tendencies and within-person variation.
+
+---
+
+# 7. Construct development program
+
+Every umbrella element must be developed as an independent workstream before holistic scoring or automated synthesis is attempted.
+
+## 7.1 Workstream 1: Values
+
+### Core question
+
+What ends, states, relationships, identities, or conditions does the person regard as important?
+
+### Required distinctions
+
+- abstract values versus concrete goals;
+- desired values versus enacted values;
+- personal versus collective values;
+- intrinsic versus instrumental values;
+- stable importance versus momentary salience;
+- declared importance versus trade-off priority;
+- identity-central versus peripheral values;
+- protected versus negotiable values.
+
+### Measurement candidates
+
+- open value elicitation;
+- ranking and best-worst scaling;
+- forced trade-offs;
+- resource-allocation tasks;
+- narrative examples;
+- ecological momentary sampling;
+- value-conflict scenarios;
+- beneficiary substitution.
+
+### Output
+
+A **value hierarchy network** containing centrality, contextual activation, conflicts, compatibility, beneficiaries, sacrifice thresholds, and developmental change.
+
+## 7.2 Workstream 2: Principles
+
+### Core question
+
+What generalized rules does the person use to translate values into judgments?
+
+### Required distinctions
+
+- absolute versus defeasible principles;
+- universal versus role-specific principles;
+- positive duties versus prohibitions;
+- procedural versus substantive principles;
+- publicly stated versus privately applied principles;
+- genuine rules versus post hoc rationalization;
+- self-directed versus other-directed standards.
+
+### Measurement candidates
+
+- rule elicitation;
+- matched scenarios;
+- exception probing;
+- counterexample testing;
+- reversal tests;
+- self-other symmetry tests;
+- in-group/out-group substitution;
+- consistency across domains.
+
+### Output
+
+A **principle application map** with trigger conditions, exceptions, priority, intended scope, actual scope, and conflict-resolution rules.
+
+## 7.3 Workstream 3: Norms
+
+### Core question
+
+What standards does the person perceive as socially expected, approved, or role appropriate?
+
+### Required distinctions
+
+- descriptive norms: what people usually do;
+- injunctive norms: what people approve or demand;
+- personal norms: what the individual believes they ought to do;
+- role norms: what is expected from a parent, citizen, leader, employee, believer, or gro
