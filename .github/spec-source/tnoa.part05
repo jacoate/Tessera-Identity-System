@@ -1,0 +1,290 @@
+levels, ages, cultures, and ideological positions.
+
+## Phase 4: Construct validation
+
+**Target:** Months 18-30
+
+Evaluate:
+
+- inter-rater reliability;
+- test-retest reliability where stability is expected;
+- within-person variability where context sensitivity is expected;
+- convergent validity;
+- discriminant validity;
+- measurement invariance;
+- known-groups comparisons;
+- social-desirability sensitivity;
+- response-process validity;
+- criterion validity where ethically appropriate.
+
+Gate:
+
+No holistic profile is produced until the independent domains demonstrate adequate measurement.
+
+## Phase 5: Process validation
+
+**Target:** Months 24-36
+
+Test questions such as:
+
+- Does value activation alter deontic judgment?
+- Does perceived threat narrow normative scope?
+- Does public observation increase conformity?
+- Does authority instruction alter responsibility attribution?
+- Does high constraint load reduce reflective override?
+- Do changed factual premises alter judgment without changing values?
+- Does perceived control alter behavior while leaving intention intact?
+- Do consequences update values, principles, identity, or merely strategy?
+
+Gate:
+
+Causal language is restricted to processes supported by design and evidence.
+
+## Phase 6: Bioecological and longitudinal validation
+
+**Target:** Years 3-5
+
+Track:
+
+- family and peer socialization;
+- school and occupational systems;
+- religious and political institutions;
+- media environments;
+- social mobility;
+- trauma and threat;
+- group membership;
+- historical events;
+- identity transitions;
+- ideological stability and revision.
+
+Analyses should distinguish:
+
+- between-person differences;
+- within-person change;
+- developmental trajectories;
+- period effects;
+- cohort effects;
+- person-context feedback loops.
+
+Gate:
+
+The model must represent both stability and change without treating all variation as inconsistency.
+
+## Phase 7: Integration and translation
+
+**Target:** Years 5-7
+
+Deliverables:
+
+- holistic Tessera integration;
+- reporting standard;
+- optional ethical benchmark overlays;
+- research API and graph interface;
+- training manual;
+- bias audit;
+- cross-cultural adaptation protocol;
+- use restrictions;
+- versioned evidence ledger.
+
+---
+
+# 16. Holistic profile output
+
+A completed profile should contain seven sections.
+
+## 16.1 Normative content profile
+
+- values;
+- principles;
+- norms;
+- ideologies;
+- moralized domains;
+- ethical reasoning modes;
+- factual premises.
+
+## 16.2 Normative structure profile
+
+- scope;
+- authority;
+- justification;
+- responsibility;
+- harm tolerance;
+- beneficiary orientation;
+- punishment and repair model.
+
+## 16.3 Contextual activation profile
+
+- roles;
+- relationships;
+- audiences;
+- power;
+- threat;
+- scarcity;
+- institutional setting;
+- group identity;
+- public-private conditions.
+
+## 16.4 Intention-enactment profile
+
+- motives;
+- intentions;
+- plans;
+- control;
+- opportunity;
+- constraints;
+- behavior;
+- outcomes.
+
+## 16.5 Developmental provenance profile
+
+- learning sources;
+- formative relationships;
+- cultural systems;
+- significant events;
+- reinforcement history;
+- narrative integration;
+- historical changes.
+
+## 16.6 Coherence and flexibility profile
+
+- internal contradictions;
+- contextual exceptions;
+- public-private divergence;
+- self-other asymmetry;
+- value-principle alignment;
+- judgment-behavior divergence;
+- revisability;
+- identity-protective resistance.
+
+## 16.7 Evidence and uncertainty profile
+
+Every conclusion should state:
+
+- data source;
+- direct report or inference;
+- number of supporting observations;
+- context coverage;
+- confidence;
+- alternative explanations;
+- evidence classification;
+- validation status.
+
+---
+
+# 17. Development sequence and dependencies
+
+Recommended build order:
+
+1. Values.
+2. Principles.
+3. Norms.
+4. Ideology and factual premises.
+5. Morality and moralization.
+6. Ethics and justificatory repertoire.
+7. Motives.
+8. Intentions.
+9. Behavior and consequences.
+10. Contextual modulation.
+11. Developmental and narrative integration.
+12. Optional ethical evaluation overlays.
+
+Dependency logic:
+
+- Values precede principles because principles operationalize values.
+- Principles and norms must be separated before ideology can be mapped cleanly.
+- Factual premises must be separated from values before disagreement is interpreted.
+- Motives and intentions must be separated before behavior is used as evidence.
+- Context must be measured at every stage rather than appended afterward.
+- Ethical evaluation comes last so that descriptive measurement is not bent toward predetermined conclusions.
+
+---
+
+# 18. Repository implementation plan
+
+## 18.1 Documentation
+
+The repository should maintain:
+
+- this Markdown specification as the editable source;
+- a matching PDF as a review and distribution artifact;
+- README links to both;
+- manifest classification;
+- a generated repository tree;
+- validation workflow checks for paired specification files and governance references.
+
+## 18.2 Proposed future documentation set
+
+```text
+docs/normative-orientation/
+  glossary.md
+  construct-governance.md
+  workstreams/
+    values.md
+    principles.md
+    norms.md
+    ideology.md
+    morality.md
+    ethics.md
+    epistemic-premises.md
+    motives.md
+    intentions.md
+    behavior-and-consequences.md
+  measurement/
+    interview-protocol.md
+    scenario-design.md
+    tradeoff-battery.md
+    public-private-protocol.md
+    ecological-momentary-assessment.md
+    developmental-narrative-interview.md
+  ontology/
+    normative-decision-episode.md
+    graph-schema.md
+    controlled-vocabulary.md
+  validation/
+    validation-roadmap.md
+    evidence-ledger.md
+```
+
+This proposed tree is a development scaffold, not a requirement to create all files immediately.
+
+## 18.3 Versioning
+
+Suggested specification versions:
+
+- 0.x: conceptual and prototype development;
+- 1.0: construct boundaries and semantic schema approved for formal pilot;
+- 2.0: initial validation completed for core workstreams;
+- 3.0: longitudinal and cross-cultural evidence sufficient for an integrated reporting standard.
+
+## 18.4 Change control
+
+Any future change that alters construct boundaries, scoring, evaluation, or data interpretation should include:
+
+- overwrite or reinterpretation notice;
+- affected files;
+- evidence rationale;
+- migration impact;
+- backward-compatibility note;
+- validation consequences;
+- approval status.
+
+---
+
+# 19. Risk register
+
+| Risk | Consequence | Primary safeguard |
+|---|---|---|
+| Moral evaluation leaks into description | Biased profiles and circular scoring | Keep descriptive, explanatory, and evaluative layers separate. |
+| Personality is treated as moral content | Trait-based moral stereotyping | Personality may modulate expression but cannot determine normative content. |
+| Behavior is treated as transparent intent | False attribution | Separate motive, intention, control, opportunity, action, and consequence. |
+| Context becomes an afterthought | Low ecological validity | Use episode-level and longitudinal person-in-context measurement. |
+| Articulate reasoning is mistaken for ethical quality | Rewards verbal skill or rationalization | Code justificatory form separately from scope, premises, beneficiaries, and harm. |
+| Internal consistency is overused | Formative or network constructs are rejected | Match psychometrics to construct structure. |
+| Automated inference exceeds evidence | Harmful certainty | Preserve provenance, confidence, alternatives, and human review. |
+| Cultural variation is mistaken for deficiency | Biased interpretation | Use emic elicitation, invariance testing, and cultural review. |
+| Harmful ideology is described without critical boundary | Apparent normalization | Descriptive representation does not equal endorsement; evaluative benchmarks remain explicit. |
+| Sensitive identity data is misused | Privacy or discrimination harm | Data minimization, access control, purpose limitation, deletion policy, and use restrictions. |
+
+---
+
+# 20. Acceptanc
