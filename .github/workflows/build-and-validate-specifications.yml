@@ -1,0 +1,129 @@
+name: Build and validate project specifications
+
+on:
+  push:
+    branches:
+      - main
+      - 'docs/**'
+    paths:
+      - 'README.md'
+      - 'docs/specifications/**.md'
+      - '.github/spec-source/**'
+      - 'docs/governance/model-file-manifest.md'
+      - 'scripts/build_tnoa_pdf.py'
+      - '.github/workflows/build-and-validate-specifications.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/specifications/**'
+      - 'docs/governance/model-file-manifest.md'
+      - 'scripts/build_tnoa_pdf.py'
+      - '.github/workflows/build-and-validate-specifications.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PDF dependency
+        run: python -m pip install --disable-pip-version-check reportlab==4.2.5
+
+      - name: Materialize TNOA Markdown source
+        run: |
+          mkdir -p docs/specifications
+          if compgen -G '.github/spec-source/tnoa.part*' > /dev/null; then
+            cat .github/spec-source/tnoa.part* > docs/specifications/tnoa-development-and-measurement-specification-v0.1.md
+            rm -rf .github/spec-source
+          fi
+          test -f docs/specifications/tnoa-development-and-measurement-specification-v0.1.md
+
+      - name: Build TNOA PDF
+        run: |
+          python scripts/build_tnoa_pdf.py \
+            docs/specifications/tnoa-development-and-measurement-specification-v0.1.md \
+            docs/specifications/tnoa-development-and-measurement-specification-v0.1.pdf
+
+      - name: Validate specification pairs and governance references
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import sys
+
+          root = Path('.')
+          spec_dir = root / 'docs' / 'specifications'
+          readme = (root / 'README.md').read_text(encoding='utf-8')
+          manifest = (root / 'docs' / 'governance' / 'model-file-manifest.md').read_text(encoding='utf-8')
+          errors = []
+
+          markdown_files = sorted(spec_dir.glob('*.md'))
+          pdf_files = sorted(spec_dir.glob('*.pdf'))
+
+          if not markdown_files:
+              errors.append('No Markdown specification found')
+          if not pdf_files:
+              errors.append('No PDF specification found after build')
+
+          for md in markdown_files:
+              if not md.with_suffix('.pdf').exists():
+                  errors.append(f'Missing PDF pair for {md.as_posix()}')
+
+          for pdf in pdf_files:
+              if not pdf.with_suffix('.md').exists():
+                  errors.append(f'Missing Markdown source for {pdf.as_posix()}')
+              if not pdf.read_bytes().startswith(b'%PDF-'):
+                  errors.append(f'Invalid PDF header: {pdf.as_posix()}')
+
+          for path in markdown_files + pdf_files:
+              rel = path.as_posix()
+              if rel not in readme:
+                  errors.append(f'README does not reference {rel}')
+              if f'`{rel}`' not in manifest:
+                  errors.append(f'Manifest does not classify {rel}')
+
+          text_files = [
+              root / 'README.md',
+              root / 'docs' / 'governance' / 'model-file-manifest.md',
+              *markdown_files,
+          ]
+          for path in text_files:
+              text = path.read_text(encoding='utf-8')
+              for forbidden in ('filecite', 'sandbox:/', 'turn0file'):
+                  if forbidden in text:
+                      errors.append(f'Internal citation token {forbidden!r} found in {path.as_posix()}')
+
+          if errors:
+              print('Specification validation failed:')
+              for error in errors:
+                  print(f'- {error}')
+              sys.exit(1)
+
+          print('Specification validation passed.')
+          PY
+
+      - name: Commit generated PDF on branch pushes
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/specifications/tnoa-development-and-measurement-specification-v0.1.md
+          git add docs/specifications/tnoa-development-and-measurement-specification-v0.1.pdf
+          git add -A .github/spec-source
+          if git diff --cached --quiet; then
+            echo "Generated PDF is current."
+          else
+            git commit -m "Build TNOA specification PDF"
+            git push
+          fi
