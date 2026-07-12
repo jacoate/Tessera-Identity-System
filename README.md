@@ -2,13 +2,11 @@
 
 ## Provisional Personality, Morality, and Identity Mapping System
 
-Tessera is a developing identity-mapping framework focused first on modeling personality expression, morality, reconciliation, and self-interpretation.
+Tessera is a developing identity-mapping framework focused on modeling personality expression, morality, reconciliation, and self-interpretation.
 
-The broader project direction may later expand into more detailed theoretical and digital infrastructure, including ecology, object relations, database-supported modeling, longitudinal pattern tracking, and assisted interpretation. Those future expansions should preserve the distinction between empirical source material, Tessera-specific speculative modeling, and validated assessment claims.
+The project may eventually expand into theoretical and digital infrastructure including ecology, object relations, database-supported modeling, and longitudinal pattern tracking.
 
-The original concept was to assist individuals with mapping their identity to help people discover their ecological uniqueness and the identity developed from a user appraising life events and the resulting narrative identity. 
-
-The primary purpose of this project is to work toward making individuals cognizant of personal nuances while guiding them into recognition of other's similaries even within common correlations observing differing results
+The original concept was to help individuals map their identity by appraising life events and recognizing their ecological uniqueness. The primary purpose is to increase personal self-awareness while fostering recognition of similarities in others, even within common correlations observed across populations.
 
 ## Current Working Hierarchy
 
@@ -22,28 +20,28 @@ DOMAIN FAMILY
 -> RECONCILIATION
 ```
 
-This hierarchy is used as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future database field should be treated as locked against review.
+This hierarchy serves as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future schema element is absolute.
 
 ## Revision Governance
 
-All model sections are provisional and subject to revision when changes improve construct clarity, reduce redundancy, preserve empirically meaningful information, prepare future infrastructure, or improve analog usability.
+All model sections are provisional and subject to revision when changes improve construct clarity, reduce redundancy, preserve empirically meaningful information, or prepare future infrastructure.
 
-Any modification that may overwrite, replace, or materially reinterpret an existing system format must explicitly identify the potential overwrite before the change is accepted. The overwrite notice should state:
+Any modification that may overwrite, replace, or materially reinterpret an existing system format must explicitly identify the potential overwrite before acceptance. The overwrite notice should address:
 
 1. what prior structure or assumption may be replaced;
 2. why the replacement is being proposed;
 3. which affected files, decks, cards, symbols, procedures, or future data structures may need review;
 4. whether the change affects scoring, interpretation, routing, reconciliation, manual language, or future schema design.
 
-No update should imply absolute finality. Manual language should use non-absolute phrasing such as “suggests,” “is consistent with,” “may indicate,” or “appears to reflect,” especially where empirical validation has not yet been completed.
+Updates should avoid implying absolute finality. Manual language should use non-absolute phrasing such as "suggests," "is consistent with," "may indicate," or "appears to reflect," especially in reconciliation and interpretation contexts.
 
 ## Empirical Preservation Rule
 
 Empirically backed information should never be overwritten, deleted, or contradicted merely to simplify the Tessera model.
 
-Speculative Tessera structures are allowed and are central to the project, but they must be labeled as provisional, candidate, hypothesis, design extrapolation, entertainment-only, or requiring validation when appropriate.
+Speculative Tessera structures are allowed and central to the project, but they must be labeled as provisional, candidate, hypothesis, design extrapolation, or requiring validation.
 
-If a construct from an established theory is removed from active architecture, the repository should explain whether the construct is represented elsewhere, preserved as source lineage, outside the current scope, or awaiting further review.
+If a construct from an established theory is removed from active architecture, the repository should document whether the construct is represented elsewhere, preserved as source lineage, or archived for reference.
 
 ## Provisional Primary Aspect Set
 
@@ -71,17 +69,17 @@ Openness / Intellect
 - Intellect
 ```
 
-Honesty-Humility is not currently preserved as an active taxonomy domain or scored bridge. Its useful content may be decomposed into Karma dimensions, neutral symbol references, question wording, reconciliation context, or source-lineage documentation when doing so adds nonredundant function.
+Honesty-Humility is not currently preserved as an active taxonomy domain. Its useful content may be decomposed into Karma dimensions, neutral symbol references, or question wording in assessment decks.
 
 ## Aspect Assessment Principle
 
-Aspect decks are intended to measure broad dispositional tendencies through analog card sorting. Aspect results should be derived from the final sequence and pattern of responses, not from participant self-labeling of stability or consistency.
+Aspect decks measure broad dispositional tendencies through analog card sorting. Results should be derived from the final sequence and pattern of responses, not from individual card selections.
 
-The manual may include charts that trace answer patterns to behavioral consistency, directiveness, contextuality, and reconciliation cues. These charts should avoid diagnostic or absolute language.
+Assessment manual may include charts tracing answer patterns to behavioral consistency, directiveness, and contextuality. These charts should avoid diagnostic or absolute language.
 
 ## Symbol Layer
 
-Selected cards may include neutral contextual symbols. Symbols are non-scoring reference markers that help connect personality responses to later reconciliation or Karma interpretation when relevant.
+Selected cards may include neutral contextual symbols. Symbols are non-scoring reference markers that help connect personality responses to later reconciliation or Karma interpretation.
 
 Symbols do not:
 
@@ -91,13 +89,13 @@ Symbols do not:
 - accumulate into hidden trait scores;
 - convert taxonomy results into Karma results.
 
-Their role is referential: they help identify recurring themes that may provide context during conflict review, reconciliation, or Karma scenario interpretation.
+Their role is referential: they identify recurring themes that may provide context during conflict review, reconciliation, or Karma scenario interpretation.
 
 ## Karma Relationship
 
-The Karma model is treated as a separate moral-context and ethical-conflict mechanism. Personality taxonomy responses should not be used to infer moral character by themselves.
+The Karma model is treated as a separate moral-context and ethical-conflict mechanism. Personality taxonomy responses should not be used to infer moral character independently.
 
-Where constructs overlap, the systems should remain functionally distinct:
+Where constructs overlap, the systems remain functionally distinct:
 
 - personality taxonomy describes tendencies, expression patterns, and contextual variability;
 - Karma examines ethical meaning under tradeoff, cost, power, concealment, harm, accountability, or consequence;
@@ -122,4 +120,4 @@ Relevant content includes:
 
 ## Project Status
 
-Active analog card-system architecture phase within a broader holistic identity-modeling project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative Tessera structures should remain explicitly labeled until validated.
+Active analog card-system architecture phase within a broader holistic identity-modeling project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative and provisional elements remain open to revision.
