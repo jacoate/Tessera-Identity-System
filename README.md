@@ -6,7 +6,7 @@ Tessera is a developing identity-mapping framework focused on modeling personali
 
 The project may eventually expand into theoretical and digital infrastructure including ecology, object relations, database-supported modeling, and longitudinal pattern tracking.
 
-The original concept was to help individuals map their identity by appraising life events and recognizing their ecological uniqueness. The primary purpose is to increase personal self-awareness while fostering recognition of similarities in others, even within common correlations observed across populations.
+The original concept was to help individuals map their identity by appraising life events and recognizing their ecological uniqueness. The primary purpose is to increase personal self-awareness while preserving empirical grounding and avoiding diagnostic overreach.
 
 ## Current Working Hierarchy
 
@@ -20,7 +20,7 @@ DOMAIN FAMILY
 -> RECONCILIATION
 ```
 
-This hierarchy serves as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future schema element is absolute.
+This hierarchy serves as a design scaffold rather than a permanently fixed structure. No domain family, aspect, candidate facet, expression, reconciliation type, symbol, Karma dimension, or future construct is final.
 
 ## Revision Governance
 
@@ -33,7 +33,7 @@ Any modification that may overwrite, replace, or materially reinterpret an exist
 3. which affected files, decks, cards, symbols, procedures, or future data structures may need review;
 4. whether the change affects scoring, interpretation, routing, reconciliation, manual language, or future schema design.
 
-Updates should avoid implying absolute finality. Manual language should use non-absolute phrasing such as "suggests," "is consistent with," "may indicate," or "appears to reflect," especially in reconciliation and interpretation contexts.
+Updates should avoid implying absolute finality. Manual language should use non-absolute phrasing such as "suggests," "is consistent with," "may indicate," or "appears to reflect," especially in reconciliation and scenario contexts.
 
 ## Empirical Preservation Rule
 
@@ -41,7 +41,7 @@ Empirically backed information should never be overwritten, deleted, or contradi
 
 Speculative Tessera structures are allowed and central to the project, but they must be labeled as provisional, candidate, hypothesis, design extrapolation, or requiring validation.
 
-If a construct from an established theory is removed from active architecture, the repository should document whether the construct is represented elsewhere, preserved as source lineage, or archived for reference.
+If a construct from an established theory is removed from active architecture, the repository should document whether the construct is represented elsewhere, preserved as source lineage, or archived for future reference.
 
 ## Provisional Primary Aspect Set
 
@@ -69,7 +69,7 @@ Openness / Intellect
 - Intellect
 ```
 
-Honesty-Humility is not currently preserved as an active taxonomy domain. Its useful content may be decomposed into Karma dimensions, neutral symbol references, or question wording in assessment decks.
+Honesty-Humility is not currently preserved as an active taxonomy domain. Its useful content may be decomposed into Karma dimensions, neutral symbol references, or question wording in assessment development.
 
 ## Aspect Assessment Principle
 
@@ -103,21 +103,23 @@ Where constructs overlap, the systems remain functionally distinct:
 
 ## Repository Scope
 
-Relevant content includes:
+This repository contains:
 
-- domain-family reference cards;
-- aspect assessment decks;
-- candidate facet cards;
-- expression validation cards;
-- reconciliation cards;
-- neutral symbol reference materials;
-- Karma scenario and interpretation materials;
-- identity mapping procedures;
-- assessment methodology;
-- instruction manual language;
-- governance and source-lineage files;
-- future schema planning notes.
+- Core personality taxonomy and conceptual framework
+- Domain family, aspect, candidate facet, and reconciliation definitions
+- Karma dimension specifications and ethical framework
+- Symbol layer design documentation
+- Governance and revision policies
+- Source lineage and empirical grounding documentation
+- Future schema planning notes and theoretical extensions
+
+**Card-system implementation, analog mechanics, and gamification systems are now maintained separately in [@jacoate/TesseraTabletop](https://github.com/jacoate/TesseraTabletop) to isolate tabletop-specific terms and mechanics from the core framework.**
+
+## Related Projects
+
+- [@jacoate/TesseraTabletop](https://github.com/jacoate/TesseraTabletop) — Card-based personality mapping tabletop game implementation, expression libraries, and scenario design.
 
 ## Project Status
 
-Active analog card-system architecture phase within a broader holistic identity-modeling project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative and provisional elements remain open to revision.
+Active identity-mapping framework development within a broader holistic project. All structures are reviewable and amendable. Scientific source material should be protected, while speculative Tessera-specific constructs remain open to revision.
+
